@@ -69,7 +69,7 @@
       position: relative;
       z-index: 1;
     }
-    .brand { display: flex; align-items: center; gap: 16px; }
+    .brand-lockup { display: flex; align-items: center; gap: 16px; }
     .logo-mark {
       width: 64px;
       height: 64px;
@@ -81,20 +81,24 @@
       flex-shrink: 0;
     }
     .logo-mark svg { width: 42px; height: 42px; }
-    .brand-text strong {
+    .brand-lockup strong {
       display: block;
       font-size: 1.35rem;
       letter-spacing: 0.04em;
       font-weight: 800;
       line-height: 1.1;
     }
-    .brand-text span {
+    .brand-lockup span {
       display: block;
       margin-top: 4px;
       font-size: 0.78rem;
       letter-spacing: 0.18em;
       text-transform: uppercase;
       color: rgba(255,255,255,0.72);
+      font-weight: 600;
+    }
+    td.col-brand {
+      white-space: nowrap;
       font-weight: 600;
     }
     .hero-meta {
@@ -304,7 +308,7 @@
   <div class="shell">
     <header class="hero">
       <div class="hero-top">
-        <div class="brand">
+        <div class="brand-lockup">
           <div class="logo-mark" aria-hidden="true">
             <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect x="6" y="10" width="52" height="44" rx="10" fill="#0b1c33"/>
@@ -314,7 +318,7 @@
               <rect x="14" y="42" width="36" height="4" rx="2" fill="#f5c518"/>
             </svg>
           </div>
-          <div class="brand-text">
+          <div>
             <strong>RUSTRANS</strong>
             <span>Logistic</span>
           </div>
@@ -825,7 +829,7 @@
       <tr>
         <td class="num">1</td>
         <td class="sku">83212465849</td>
-        <td class="brand">BMW</td>
+        <td class="col-brand">BMW</td>
         <td class="name">Моторное масло BMW Twin Power Turbo SN 5W-30 Longlife-04 (C3), (Германия/Испания), (1л.)</td>
         <td class="num">1</td>
         <td class="money">893 ₽</td>
@@ -835,7 +839,7 @@
       <tr>
         <td class="num">2</td>
         <td class="sku">XT10QLVC</td>
-        <td class="brand">Ford</td>
+        <td class="col-brand">Ford</td>
         <td class="name">Трансмиссионное масло Ford Motorcraft ATF Mercon LV, для АКПП / ГУР (красный), (США), (0,946л)</td>
         <td class="num">9</td>
         <td class="money">659 ₽</td>
@@ -845,7 +849,7 @@
       <tr>
         <td class="num">3</td>
         <td class="sku">XT10QLVC</td>
-        <td class="brand">Ford</td>
+        <td class="col-brand">Ford</td>
         <td class="name">Трансмиссионное масло Ford Motorcraft ATF Mercon LV, для АКПП / ГУР (красный), (США), (0,946л)</td>
         <td class="num">1</td>
         <td class="money">659 ₽</td>
@@ -855,7 +859,7 @@
       <tr>
         <td class="num">4</td>
         <td class="sku">XT5QMC</td>
-        <td class="brand">Ford</td>
+        <td class="col-brand">Ford</td>
         <td class="name">Трансмиссионное масло Ford Motorcraft ATF Mercon V, для АКПП / ГУР (красный), (США), (0,946л)</td>
         <td class="num">2</td>
         <td class="money">676 ₽</td>
@@ -865,7 +869,7 @@
       <tr>
         <td class="num">5</td>
         <td class="sku">08880-83716</td>
-        <td class="brand">Lexus</td>
+        <td class="col-brand">Lexus</td>
         <td class="name">Моторное масло Lexus SN 5W-40 / ILSAC GF-5, для бенз. двигателей, (Дубай), (1л)</td>
         <td class="num">5</td>
         <td class="money">524 ₽</td>
@@ -875,7 +879,7 @@
       <tr>
         <td class="num">6</td>
         <td class="sku">08880-83716</td>
-        <td class="brand">Lexus</td>
+        <td class="col-brand">Lexus</td>
         <td class="name">Моторное масло Lexus SN 5W-40 / ILSAC GF-5, для бенз. двигателей, (Дубай), (1л)</td>
         <td class="num">6</td>
         <td class="money">524 ₽</td>
@@ -885,7 +889,7 @@
       <tr>
         <td class="num">7</td>
         <td class="sku">08880-83716</td>
-        <td class="brand">Lexus</td>
+        <td class="col-brand">Lexus</td>
         <td class="name">Моторное масло Lexus SN 5W-40 / ILSAC GF-5, для бенз. двигателей, (Дубай), (1л)</td>
         <td class="num">2</td>
         <td class="money">524 ₽</td>
@@ -895,7 +899,7 @@
       <tr>
         <td class="num">8</td>
         <td class="sku">08880-83717</td>
-        <td class="brand">Lexus</td>
+        <td class="col-brand">Lexus</td>
         <td class="name">Моторное масло Lexus SN 5W-40 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)</td>
         <td class="num">8</td>
         <td class="money">2 219 ₽</td>
@@ -905,7 +909,7 @@
       <tr>
         <td class="num">9</td>
         <td class="sku">08880-83717</td>
-        <td class="brand">Lexus</td>
+        <td class="col-brand">Lexus</td>
         <td class="name">Моторное масло Lexus SN 5W-40 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)</td>
         <td class="num">2</td>
         <td class="money">2 219 ₽</td>
@@ -915,7 +919,7 @@
       <tr>
         <td class="num">10</td>
         <td class="sku">08880-83717</td>
-        <td class="brand">Lexus</td>
+        <td class="col-brand">Lexus</td>
         <td class="name">Моторное масло Lexus SN 5W-40 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)</td>
         <td class="num">1</td>
         <td class="money">2 219 ₽</td>
@@ -925,7 +929,7 @@
       <tr>
         <td class="num">11</td>
         <td class="sku">08880-84136</td>
-        <td class="brand">Lexus</td>
+        <td class="col-brand">Lexus</td>
         <td class="name">Моторное масло Lexus SP 5W-40 / ILSAC GF-6, для бенз. двигателей, (Дубай), (4л)</td>
         <td class="num">17</td>
         <td class="money">2 368 ₽</td>
@@ -935,7 +939,7 @@
       <tr>
         <td class="num">12</td>
         <td class="sku">08880-84136</td>
-        <td class="brand">Lexus</td>
+        <td class="col-brand">Lexus</td>
         <td class="name">Моторное масло Lexus SP 5W-40 / ILSAC GF-6, для бенз. двигателей, (Дубай), (4л)</td>
         <td class="num">2</td>
         <td class="money">2 368 ₽</td>
@@ -945,7 +949,7 @@
       <tr>
         <td class="num">13</td>
         <td class="sku">08880-84136</td>
-        <td class="brand">Lexus</td>
+        <td class="col-brand">Lexus</td>
         <td class="name">Моторное масло Lexus SP 5W-40 / ILSAC GF-6, для бенз. двигателей, (Дубай), (4л)</td>
         <td class="num">1</td>
         <td class="money">2 368 ₽</td>
@@ -955,7 +959,7 @@
       <tr>
         <td class="num">14</td>
         <td class="sku">LIM10038-1EN</td>
-        <td class="brand">Mazda</td>
+        <td class="col-brand">Mazda</td>
         <td class="name">Моторное масло Mazda &quot;GOLDEN&quot; SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (1л)</td>
         <td class="num">1</td>
         <td class="money">700 ₽</td>
@@ -965,7 +969,7 @@
       <tr>
         <td class="num">15</td>
         <td class="sku">LIM10038-1EN</td>
-        <td class="brand">Mazda</td>
+        <td class="col-brand">Mazda</td>
         <td class="name">Моторное масло Mazda &quot;GOLDEN&quot; SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (1л)</td>
         <td class="num">2</td>
         <td class="money">700 ₽</td>
@@ -975,7 +979,7 @@
       <tr>
         <td class="num">16</td>
         <td class="sku">LIM10038-1EN</td>
-        <td class="brand">Mazda</td>
+        <td class="col-brand">Mazda</td>
         <td class="name">Моторное масло Mazda &quot;GOLDEN&quot; SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (1л)</td>
         <td class="num">1</td>
         <td class="money">700 ₽</td>
@@ -985,7 +989,7 @@
       <tr>
         <td class="num">17</td>
         <td class="sku">LIM10038-4EN</td>
-        <td class="brand">Mazda</td>
+        <td class="col-brand">Mazda</td>
         <td class="name">Моторное масло Mazda &quot;GOLDEN&quot; SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)</td>
         <td class="num">6</td>
         <td class="money">2 849 ₽</td>
@@ -995,7 +999,7 @@
       <tr>
         <td class="num">18</td>
         <td class="sku">LIM10038-4EN</td>
-        <td class="brand">Mazda</td>
+        <td class="col-brand">Mazda</td>
         <td class="name">Моторное масло Mazda &quot;GOLDEN&quot; SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)</td>
         <td class="num">1</td>
         <td class="money">2 849 ₽</td>
@@ -1005,7 +1009,7 @@
       <tr>
         <td class="num">19</td>
         <td class="sku">LIM10038-4EN</td>
-        <td class="brand">Mazda</td>
+        <td class="col-brand">Mazda</td>
         <td class="name">Моторное масло Mazda &quot;GOLDEN&quot; SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)</td>
         <td class="num">2</td>
         <td class="money">2 849 ₽</td>
@@ -1015,7 +1019,7 @@
       <tr>
         <td class="num">20</td>
         <td class="sku">A000989630811AAEW</td>
-        <td class="brand">Mercedes-Benz</td>
+        <td class="col-brand">Mercedes-Benz</td>
         <td class="name">Моторное масло Mercedes-Benz 5W-40 / MB 229.5, бензин/дизель, (Бельгия), (1л)</td>
         <td class="num">1</td>
         <td class="money">843 ₽</td>
@@ -1025,7 +1029,7 @@
       <tr>
         <td class="num">21</td>
         <td class="sku">4024610</td>
-        <td class="brand">Mitsubishi</td>
+        <td class="col-brand">Mitsubishi</td>
         <td class="name">Трансмиссионное масло Mitsubishi ATF SP-III, для АКПП и ГУР, (Япония), (4л)</td>
         <td class="num">1</td>
         <td class="money">3 094 ₽</td>
@@ -1035,7 +1039,7 @@
       <tr>
         <td class="num">22</td>
         <td class="sku">MZ320863</td>
-        <td class="brand">Mitsubishi</td>
+        <td class="col-brand">Mitsubishi</td>
         <td class="name">Моторное масло Mitsubishi SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (1л)</td>
         <td class="num">6</td>
         <td class="money">614 ₽</td>
@@ -1045,7 +1049,7 @@
       <tr>
         <td class="num">23</td>
         <td class="sku">MZ320864</td>
-        <td class="brand">Mitsubishi</td>
+        <td class="col-brand">Mitsubishi</td>
         <td class="name">Моторное масло Mitsubishi SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)</td>
         <td class="num">18</td>
         <td class="money">2 235 ₽</td>
@@ -1055,7 +1059,7 @@
       <tr>
         <td class="num">24</td>
         <td class="sku">MZ320864</td>
-        <td class="brand">Mitsubishi</td>
+        <td class="col-brand">Mitsubishi</td>
         <td class="name">Моторное масло Mitsubishi SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)</td>
         <td class="num">6</td>
         <td class="money">2 235 ₽</td>
@@ -1065,7 +1069,7 @@
       <tr>
         <td class="num">25</td>
         <td class="sku">MZ320864</td>
-        <td class="brand">Mitsubishi</td>
+        <td class="col-brand">Mitsubishi</td>
         <td class="name">Моторное масло Mitsubishi SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)</td>
         <td class="num">1</td>
         <td class="money">2 235 ₽</td>
@@ -1075,7 +1079,7 @@
       <tr>
         <td class="num">26</td>
         <td class="sku">KLAPJ05301</td>
-        <td class="brand">Nissan</td>
+        <td class="col-brand">Nissan</td>
         <td class="name">Моторное масло Nissan SP 5W-30 / ILSAC GF-6, для бенз. двигателей, (Дубай), (1л)</td>
         <td class="num">19</td>
         <td class="money">655 ₽</td>
@@ -1085,7 +1089,7 @@
       <tr>
         <td class="num">27</td>
         <td class="sku">KLE2200004</td>
-        <td class="brand">Nissan</td>
+        <td class="col-brand">Nissan</td>
         <td class="name">Трансмиссионное масло Nissan ATF Matic D, для АКПП, (Япония), (4л)</td>
         <td class="num">1</td>
         <td class="money">4 092 ₽</td>
@@ -1095,7 +1099,7 @@
       <tr>
         <td class="num">28</td>
         <td class="sku">KLE2200004</td>
-        <td class="brand">Nissan</td>
+        <td class="col-brand">Nissan</td>
         <td class="name">Трансмиссионное масло Nissan ATF Matic D, для АКПП, (Япония), (4л)</td>
         <td class="num">2</td>
         <td class="money">4 092 ₽</td>
@@ -1105,7 +1109,7 @@
       <tr>
         <td class="num">29</td>
         <td class="sku">KLE5200004</td>
-        <td class="brand">Nissan</td>
+        <td class="col-brand">Nissan</td>
         <td class="name">Трансмиссионное масло Nissan CVT Fluid NS-2, для вариаторов, (Япония), (4л)</td>
         <td class="num">1</td>
         <td class="money">4 569 ₽</td>
@@ -1115,7 +1119,7 @@
       <tr>
         <td class="num">30</td>
         <td class="sku">KLE5200004</td>
-        <td class="brand">Nissan</td>
+        <td class="col-brand">Nissan</td>
         <td class="name">Трансмиссионное масло Nissan CVT Fluid NS-2, для вариаторов, (Япония), (4л)</td>
         <td class="num">1</td>
         <td class="money">4 569 ₽</td>
@@ -1125,7 +1129,7 @@
       <tr>
         <td class="num">31</td>
         <td class="sku">KLE5200004</td>
-        <td class="brand">Nissan</td>
+        <td class="col-brand">Nissan</td>
         <td class="name">Трансмиссионное масло Nissan CVT Fluid NS-2, для вариаторов, (Япония), (4л)</td>
         <td class="num">1</td>
         <td class="money">4 569 ₽</td>
@@ -1135,7 +1139,7 @@
       <tr>
         <td class="num">32</td>
         <td class="sku">KLE5300004</td>
-        <td class="brand">Nissan</td>
+        <td class="col-brand">Nissan</td>
         <td class="name">Трансмиссионное масло Nissan CVT Fluid NS-3, для вариаторов, (Япония), (4л)</td>
         <td class="num">11</td>
         <td class="money">4 218 ₽</td>
@@ -1145,7 +1149,7 @@
       <tr>
         <td class="num">33</td>
         <td class="sku">KLE5300004</td>
-        <td class="brand">Nissan</td>
+        <td class="col-brand">Nissan</td>
         <td class="name">Трансмиссионное масло Nissan CVT Fluid NS-3, для вариаторов, (Япония), (4л)</td>
         <td class="num">0</td>
         <td class="money">4 218 ₽</td>
@@ -1155,7 +1159,7 @@
       <tr>
         <td class="num">34</td>
         <td class="sku">550061553</td>
-        <td class="brand">Shell</td>
+        <td class="col-brand">Shell</td>
         <td class="name">Моторное масло Shell Helix Ultra SP 5W-40 (A3/B4), BMW LL-01, MB 229.5/226.5, (Оман), (1л)</td>
         <td class="num">3</td>
         <td class="money">748 ₽</td>
@@ -1165,7 +1169,7 @@
       <tr>
         <td class="num">35</td>
         <td class="sku">550067567</td>
-        <td class="brand">Shell</td>
+        <td class="col-brand">Shell</td>
         <td class="name">Моторное масло Shell Helix HX8 X SP 5W-30 (A3/B4), MB 229.5, (Оман), (1л)</td>
         <td class="num">3</td>
         <td class="money">466 ₽</td>
@@ -1175,7 +1179,7 @@
       <tr>
         <td class="num">36</td>
         <td class="sku">550067568</td>
-        <td class="brand">Shell</td>
+        <td class="col-brand">Shell</td>
         <td class="name">Моторное масло Shell Helix HX8 X SP 5W-30 (A3/B4), MB 229.5, (Оман), (4л)</td>
         <td class="num">1</td>
         <td class="money">1 713 ₽</td>
@@ -1185,7 +1189,7 @@
       <tr>
         <td class="num">37</td>
         <td class="sku">550067569</td>
-        <td class="brand">Shell</td>
+        <td class="col-brand">Shell</td>
         <td class="name">Моторное масло Shell Helix HX8 X SP 5W-30 (A3/B4), MB 229.5, (Оман), (5л)</td>
         <td class="num">1</td>
         <td class="money">2 012 ₽</td>
@@ -1195,7 +1199,7 @@
       <tr>
         <td class="num">38</td>
         <td class="sku">550075051</td>
-        <td class="brand">Shell</td>
+        <td class="col-brand">Shell</td>
         <td class="name">Моторное масло Shell Helix HX8 SP 5W-40 (A3/B4), MB 229.3, (Оман), (5л)</td>
         <td class="num">1</td>
         <td class="money">1 760 ₽</td>
@@ -1205,7 +1209,7 @@
       <tr>
         <td class="num">39</td>
         <td class="sku">550075051</td>
-        <td class="brand">Shell</td>
+        <td class="col-brand">Shell</td>
         <td class="name">Моторное масло Shell Helix HX8 SP 5W-40 (A3/B4), MB 229.3, (Оман), (5л)</td>
         <td class="num">1</td>
         <td class="money">1 760 ₽</td>
@@ -1215,7 +1219,7 @@
       <tr>
         <td class="num">40</td>
         <td class="sku">08880-83713</td>
-        <td class="brand">Toyota</td>
+        <td class="col-brand">Toyota</td>
         <td class="name">Моторное масло Toyota SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (1л)</td>
         <td class="num">31</td>
         <td class="money">460 ₽</td>
@@ -1225,7 +1229,7 @@
       <tr>
         <td class="num">41</td>
         <td class="sku">08880-83713</td>
-        <td class="brand">Toyota</td>
+        <td class="col-brand">Toyota</td>
         <td class="name">Моторное масло Toyota SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (1л)</td>
         <td class="num">21</td>
         <td class="money">460 ₽</td>
@@ -1235,7 +1239,7 @@
       <tr>
         <td class="num">42</td>
         <td class="sku">08880-83713</td>
-        <td class="brand">Toyota</td>
+        <td class="col-brand">Toyota</td>
         <td class="name">Моторное масло Toyota SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (1л)</td>
         <td class="num">1</td>
         <td class="money">460 ₽</td>
@@ -1245,7 +1249,7 @@
       <tr>
         <td class="num">43</td>
         <td class="sku">08880-83714</td>
-        <td class="brand">Toyota</td>
+        <td class="col-brand">Toyota</td>
         <td class="name">Моторное масло Toyota SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)</td>
         <td class="num">30</td>
         <td class="money">2 349 ₽</td>
@@ -1255,7 +1259,7 @@
       <tr>
         <td class="num">44</td>
         <td class="sku">08880-83714</td>
-        <td class="brand">Toyota</td>
+        <td class="col-brand">Toyota</td>
         <td class="name">Моторное масло Toyota SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)</td>
         <td class="num">135</td>
         <td class="money">2 349 ₽</td>
@@ -1265,7 +1269,7 @@
       <tr>
         <td class="num">45</td>
         <td class="sku">08880-83714</td>
-        <td class="brand">Toyota</td>
+        <td class="col-brand">Toyota</td>
         <td class="name">Моторное масло Toyota SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)</td>
         <td class="num">10</td>
         <td class="money">2 349 ₽</td>
@@ -1275,7 +1279,7 @@
       <tr>
         <td class="num">46</td>
         <td class="sku">08880-84131</td>
-        <td class="brand">Toyota</td>
+        <td class="col-brand">Toyota</td>
         <td class="name">Моторное масло Toyota SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (1л)</td>
         <td class="num">1</td>
         <td class="money">461 ₽</td>
@@ -1285,7 +1289,7 @@
       <tr>
         <td class="num">47</td>
         <td class="sku">08880-84132</td>
-        <td class="brand">Toyota</td>
+        <td class="col-brand">Toyota</td>
         <td class="name">Моторное масло Toyota SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)</td>
         <td class="num">15</td>
         <td class="money">2 436 ₽</td>
@@ -1295,7 +1299,7 @@
       <tr>
         <td class="num">48</td>
         <td class="sku">08880-84355</td>
-        <td class="brand">Toyota</td>
+        <td class="col-brand">Toyota</td>
         <td class="name">Моторное масло Toyota SP 0W-20 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)</td>
         <td class="num">3</td>
         <td class="money">3 039 ₽</td>
@@ -1305,7 +1309,7 @@
       <tr>
         <td class="num">49</td>
         <td class="sku">08880-84355</td>
-        <td class="brand">Toyota</td>
+        <td class="col-brand">Toyota</td>
         <td class="name">Моторное масло Toyota SP 0W-20 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)</td>
         <td class="num">4</td>
         <td class="money">3 039 ₽</td>
@@ -1315,7 +1319,7 @@
       <tr>
         <td class="num">50</td>
         <td class="sku">08880-84355</td>
-        <td class="brand">Toyota</td>
+        <td class="col-brand">Toyota</td>
         <td class="name">Моторное масло Toyota SP 0W-20 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)</td>
         <td class="num">1</td>
         <td class="money">3 039 ₽</td>
@@ -1325,7 +1329,7 @@
       <tr>
         <td class="num">51</td>
         <td class="sku">08880-84355</td>
-        <td class="brand">Toyota</td>
+        <td class="col-brand">Toyota</td>
         <td class="name">Моторное масло Toyota SP 0W-20 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)</td>
         <td class="num">3</td>
         <td class="money">3 039 ₽</td>
@@ -1335,7 +1339,7 @@
       <tr>
         <td class="num">52</td>
         <td class="sku">08880-84356</td>
-        <td class="brand">Toyota</td>
+        <td class="col-brand">Toyota</td>
         <td class="name">Моторное масло Toyota SP 0W-20 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (1л)</td>
         <td class="num">9</td>
         <td class="money">599 ₽</td>
@@ -1345,7 +1349,7 @@
       <tr>
         <td class="num">53</td>
         <td class="sku">08886-02105</td>
-        <td class="brand">Toyota</td>
+        <td class="col-brand">Toyota</td>
         <td class="name">Трансмиссионное масло Toyota CVTF TC, для вариаторов, (Япония), (4л)</td>
         <td class="num">1</td>
         <td class="money">3 061 ₽</td>
@@ -1355,7 +1359,7 @@
       <tr>
         <td class="num">54</td>
         <td class="sku">08886-02105</td>
-        <td class="brand">Toyota</td>
+        <td class="col-brand">Toyota</td>
         <td class="name">Трансмиссионное масло Toyota CVTF TC, для вариаторов, (Япония), (4л)</td>
         <td class="num">1</td>
         <td class="money">3 061 ₽</td>
@@ -1365,7 +1369,7 @@
       <tr>
         <td class="num">55</td>
         <td class="sku">08886-02105</td>
-        <td class="brand">Toyota</td>
+        <td class="col-brand">Toyota</td>
         <td class="name">Трансмиссионное масло Toyota CVTF TC, для вариаторов, (Япония), (4л)</td>
         <td class="num">1</td>
         <td class="money">3 061 ₽</td>
@@ -1375,7 +1379,7 @@
       <tr>
         <td class="num">56</td>
         <td class="sku">08886-02305</td>
-        <td class="brand">Toyota</td>
+        <td class="col-brand">Toyota</td>
         <td class="name">Трансмиссионное масло Toyota ATF WS, для АКПП, (Япония), (4л)</td>
         <td class="num">3</td>
         <td class="money">4 159 ₽</td>
@@ -1385,7 +1389,7 @@
       <tr>
         <td class="num">57</td>
         <td class="sku">08886-02805</td>
-        <td class="brand">Toyota</td>
+        <td class="col-brand">Toyota</td>
         <td class="name">Трансмиссионное масло Toyota ATF WS, для АКПП, (Япония), (4л.)</td>
         <td class="num">2</td>
         <td class="money">4 413 ₽</td>
@@ -1395,7 +1399,7 @@
       <tr>
         <td class="num">58</td>
         <td class="sku">08886-81885</td>
-        <td class="brand">Toyota</td>
+        <td class="col-brand">Toyota</td>
         <td class="name">Трансмиссионное масло Toyota ATF WS, для АКПП, (Таиланд), (4л)</td>
         <td class="num">1</td>
         <td class="money">4 096 ₽</td>
@@ -1405,7 +1409,7 @@
       <tr>
         <td class="num">59</td>
         <td class="sku">08886-81885</td>
-        <td class="brand">Toyota</td>
+        <td class="col-brand">Toyota</td>
         <td class="name">Трансмиссионное масло Toyota ATF WS, для АКПП, (Таиланд), (4л)</td>
         <td class="num">1</td>
         <td class="money">4 096 ₽</td>
@@ -1415,7 +1419,7 @@
       <tr>
         <td class="num">60</td>
         <td class="sku">08886-81905</td>
-        <td class="brand">Toyota</td>
+        <td class="col-brand">Toyota</td>
         <td class="name">Трансмиссионное масло Toyota CVTF FE, для вариаторов, (Таиланд), (4л)</td>
         <td class="num">3</td>
         <td class="money">5 191 ₽</td>

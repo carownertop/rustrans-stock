@@ -198,7 +198,7 @@ def render_discount_rows(items: list[dict]) -> str:
       <tr>
         <td class="num">{i}</td>
         <td class="sku">{esc(item['sku'])}</td>
-        <td class="brand">{esc(item['brand'])}</td>
+        <td class="col-brand">{esc(item['brand'])}</td>
         <td class="name">{esc(item['name'])}</td>
         <td class="num">{fmt_int(item['qty'])}</td>
         <td class="money">{fmt_money(item['price'])}</td>
@@ -286,7 +286,7 @@ def render_html(data: dict) -> str:
       position: relative;
       z-index: 1;
     }}
-    .brand {{ display: flex; align-items: center; gap: 16px; }}
+    .brand-lockup {{ display: flex; align-items: center; gap: 16px; }}
     .logo-mark {{
       width: 64px;
       height: 64px;
@@ -298,20 +298,24 @@ def render_html(data: dict) -> str:
       flex-shrink: 0;
     }}
     .logo-mark svg {{ width: 42px; height: 42px; }}
-    .brand-text strong {{
+    .brand-lockup strong {{
       display: block;
       font-size: 1.35rem;
       letter-spacing: 0.04em;
       font-weight: 800;
       line-height: 1.1;
     }}
-    .brand-text span {{
+    .brand-lockup span {{
       display: block;
       margin-top: 4px;
       font-size: 0.78rem;
       letter-spacing: 0.18em;
       text-transform: uppercase;
       color: rgba(255,255,255,0.72);
+      font-weight: 600;
+    }}
+    td.col-brand {{
+      white-space: nowrap;
       font-weight: 600;
     }}
     .hero-meta {{
@@ -521,7 +525,7 @@ def render_html(data: dict) -> str:
   <div class="shell">
     <header class="hero">
       <div class="hero-top">
-        <div class="brand">
+        <div class="brand-lockup">
           <div class="logo-mark" aria-hidden="true">
             <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect x="6" y="10" width="52" height="44" rx="10" fill="#0b1c33"/>
@@ -531,7 +535,7 @@ def render_html(data: dict) -> str:
               <rect x="14" y="42" width="36" height="4" rx="2" fill="#f5c518"/>
             </svg>
           </div>
-          <div class="brand-text">
+          <div>
             <strong>RUSTRANS</strong>
             <span>Logistic</span>
           </div>
