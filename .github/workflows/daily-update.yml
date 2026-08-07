@@ -2,8 +2,8 @@ name: Daily inventory update
 
 on:
   schedule:
-    # Every day at 06:00 UTC = 09:00 MSK
-    - cron: "0 6 * * *"
+    # Every day at 07:10 UTC = 10:10 MSK
+    - cron: "10 7 * * *"
   workflow_dispatch:
 
 permissions:
