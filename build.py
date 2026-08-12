@@ -286,33 +286,19 @@ def render_html(data: dict) -> str:
       position: relative;
       z-index: 1;
     }}
-    .brand-lockup {{ display: flex; align-items: center; gap: 16px; }}
-    .logo-mark {{
-      width: 64px;
-      height: 64px;
-      border-radius: 18px;
-      background: linear-gradient(145deg, #fff, #f2f2f2);
-      display: grid;
-      place-items: center;
-      box-shadow: inset 0 0 0 1px rgba(255,255,255,0.5);
-      flex-shrink: 0;
+    .brand-lockup {{
+      display: flex;
+      align-items: center;
+      background: #fff;
+      border-radius: 16px;
+      padding: 10px 14px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.18);
     }}
-    .logo-mark svg {{ width: 42px; height: 42px; }}
-    .brand-lockup strong {{
+    .brand-lockup img {{
       display: block;
-      font-size: 1.35rem;
-      letter-spacing: 0.04em;
-      font-weight: 800;
-      line-height: 1.1;
-    }}
-    .brand-lockup span {{
-      display: block;
-      margin-top: 4px;
-      font-size: 0.78rem;
-      letter-spacing: 0.18em;
-      text-transform: uppercase;
-      color: rgba(255,255,255,0.72);
-      font-weight: 600;
+      height: 52px;
+      width: auto;
+      max-width: min(320px, 70vw);
     }}
     td.col-brand {{
       white-space: nowrap;
@@ -526,19 +512,7 @@ def render_html(data: dict) -> str:
     <header class="hero">
       <div class="hero-top">
         <div class="brand-lockup">
-          <div class="logo-mark" aria-hidden="true">
-            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="6" y="10" width="52" height="44" rx="10" fill="#0b1c33"/>
-              <path d="M14 38V26h8.2c3.4 0 5.5 1.7 5.5 4.4 0 1.8-1 3.2-2.7 3.9L31 38h-5.2l-5.1-3.4H19.2V38H14zm5.2-7.2h2.7c1.3 0 2-.6 2-1.5s-.7-1.5-2-1.5h-2.7v3z" fill="#fff"/>
-              <path d="M33 26h5.1l4.2 12H37l-.7-2.2h-4.7L30.8 38H26l7-12zm1.7 6.7h2.8l-1.4-4.2-1.4 4.2z" fill="#fff"/>
-              <path d="M46 26h5l5.8 8.2V26H62v12h-5l-5.8-8.2V38H46V26z" fill="#e30613"/>
-              <rect x="14" y="42" width="36" height="4" rx="2" fill="#f5c518"/>
-            </svg>
-          </div>
-          <div>
-            <strong>RUSTRANS</strong>
-            <span>Logistic</span>
-          </div>
+          <img src="logo.png" alt="Rustrans-Logistic.ru — оригинальные импортные масла" width="444" height="110" />
         </div>
         <div class="hero-meta">
           Данные на <b>{esc(data['updated'])}</b><br />

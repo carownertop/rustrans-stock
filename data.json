@@ -32,23 +32,23 @@
     {
       "sku": "08880-83717",
       "name": "Моторное масло Lexus SN 5W-40 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 2593.0,
+      "qty": 2591.0,
       "per_pallet": 144.0,
-      "pallets": 19.0,
+      "pallets": 18.0,
       "price_path": 2523.0,
       "price_premium": 2877.0,
-      "total_path": 6542139.0,
+      "total_path": 6537093.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "08880-84136",
       "name": "Моторное масло Lexus SP 5W-40 / ILSAC GF-6, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 259.0,
+      "qty": 258.0,
       "per_pallet": 144.0,
       "pallets": 2.0,
       "price_path": 2523.0,
       "price_premium": 2877.0,
-      "total_path": 653457.0,
+      "total_path": 650934.0,
       "status": "в наличии в МСК"
     },
     {
@@ -65,12 +65,12 @@
     {
       "sku": "LIM10038-4EN",
       "name": "Моторное масло Mazda \"GOLDEN\" SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1383.0,
+      "qty": 1382.0,
       "per_pallet": 144.0,
       "pallets": 10.0,
       "price_path": 3159.0,
       "price_premium": 3602.0,
-      "total_path": 4368897.0,
+      "total_path": 4365738.0,
       "status": "в наличии в МСК"
     },
     {
@@ -107,6 +107,17 @@
       "status": "в наличии в МСК"
     },
     {
+      "sku": "A000989671011FBDW",
+      "name": "Моторное масло Mercedes-Benz 5W-30 / MB 229.52, (Германия), (1л)",
+      "qty": 344.0,
+      "per_pallet": 576.0,
+      "pallets": 1.0,
+      "price_path": 1176.0,
+      "price_premium": 1341.0,
+      "total_path": 404544.0,
+      "status": "в наличии в МСК"
+    },
+    {
       "sku": "A000989681013FSEW",
       "name": "Моторное масло Mercedes-Benz 5W-40 / MB 229.5 (Германия), (5л)",
       "qty": 1137.0,
@@ -131,12 +142,12 @@
     {
       "sku": "MZ321232",
       "name": "Моторное масло Mitsubishi SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 2343.0,
+      "qty": 2342.0,
       "per_pallet": 162.0,
       "pallets": 15.0,
       "price_path": 3106.0,
       "price_premium": 3541.0,
-      "total_path": 7277358.0,
+      "total_path": 7274252.0,
       "status": "в наличии в МСК"
     },
     {
@@ -900,10 +911,10 @@
   ],
   "totals": {
     "stock": {
-      "qty": 24971.0,
+      "qty": 25310.0,
       "pallets": 128.0,
-      "total_path": 58872540.0,
-      "count": 24
+      "total_path": 59263250.0,
+      "count": 25
     },
     "transit": {
       "qty": 0.0,
