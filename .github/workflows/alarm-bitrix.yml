@@ -1,0 +1,35 @@
+# Будильник: public stock → private analytics (Bitrix sync).
+# GitHub schedule в private rustrans-analytics не стреляет; здесь cron живой.
+name: Alarm · Bitrix sync (analytics)
+
+on:
+  schedule:
+    # ТЕСТ: 23:55 Europe/Moscow = 20:55 UTC (потом сменить на 18:00 МСК = 0 15 * * *)
+    - cron: "55 20 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  wake-analytics-bitrix:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch Sync Bitrix on rustrans-analytics
+        env:
+          GH_TOKEN: ${{ secrets.ANALYTICS_DISPATCH_TOKEN }}
+        run: |
+          set -euo pipefail
+          if [ -z "${GH_TOKEN:-}" ]; then
+            echo "::error::Secret ANALYTICS_DISPATCH_TOKEN не задан в rustrans-stock (Settings → Secrets)."
+            exit 1
+          fi
+          echo "Dispatching Sync Bitrix warehouse @ $(date -u +%Y-%m-%dT%H:%MZ) (event=${{ github.event_name }})"
+          gh workflow run "Sync Bitrix warehouse" \
+            --repo carownertop/rustrans-analytics \
+            -f sync_mode=rolling_24h \
+            -f commit_warehouse=true \
+            -f publish_view=true
+          echo "OK: workflow_dispatch sent"
+          sleep 3
+          gh run list --repo carownertop/rustrans-analytics --workflow=sync-bitrix.yml --limit 3
