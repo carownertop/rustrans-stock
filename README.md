@@ -12,4 +12,6 @@ python3 build.py
 
 Страница отдаётся через GitHub Pages из корня ветки `main`.
 
-Ежедневное обновление: GitHub Action в `.github/workflows/daily-update.yml` (10:10 МСК) + ручной запуск `workflow_dispatch`.
+Обновление по расписанию: GitHub Action в `.github/workflows/daily-update.yml` —
+каждые 3 часа с **10:10 до 19:10 МСК** (10:10, 13:10, 16:10, 19:10). После 22:00 пауза до 10:10 следующего дня.
+Также доступен ручной запуск `workflow_dispatch`.
