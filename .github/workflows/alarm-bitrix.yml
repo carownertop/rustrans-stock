@@ -4,8 +4,8 @@ name: Alarm · Bitrix sync (analytics)
 
 on:
   schedule:
-    # ТЕСТ: 23:55 Europe/Moscow = 20:55 UTC (потом сменить на 18:00 МСК = 0 15 * * *)
-    - cron: "55 20 * * *"
+    # Каждый день 00:10 Europe/Moscow = 21:10 UTC
+    - cron: "10 21 * * *"
   workflow_dispatch:
 
 permissions:
