@@ -2,7 +2,7 @@
   "meta": {
     "phone": "89180863874",
     "site": "https://rustrans-logistic.ru/",
-    "usd_rate": "85,0136",
+    "usd_rate": "85,1645",
     "usd_date": "18.08.2026"
   },
   "updated": "18.08.2026",
@@ -21,23 +21,23 @@
     {
       "sku": "83215B5BFA4",
       "name": "Моторное масло BMW Twin Power Turbo SN 5W-30 Longlife-04 (C3), (Германия), (1л)",
-      "qty": 6587.0,
+      "qty": 6611.0,
       "per_pallet": 576.0,
       "pallets": 12.0,
       "price_path": 1386.0,
       "price_premium": 1581.0,
-      "total_path": 9129582.0,
+      "total_path": 9162846.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "08234P99F4PY1",
       "name": "Моторное масло Honda SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 129.0,
+      "qty": 68.0,
       "per_pallet": 144.0,
       "pallets": 1.0,
       "price_path": 3441.0,
       "price_premium": 3923.0,
-      "total_path": 443889.0,
+      "total_path": 233988.0,
       "status": "в наличии в МСК"
     },
     {
@@ -153,23 +153,23 @@
     {
       "sku": "MZ321232",
       "name": "Моторное масло Mitsubishi SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 2311.0,
+      "qty": 2310.0,
       "per_pallet": 162.0,
       "pallets": 15.0,
       "price_path": 3205.0,
       "price_premium": 3654.0,
-      "total_path": 7406755.0,
+      "total_path": 7403550.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "08880-83714",
       "name": "Моторное масло Toyota SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 2022.0,
+      "qty": 2019.0,
       "per_pallet": 144.0,
       "pallets": 15.0,
       "price_path": 2515.0,
       "price_premium": 2868.0,
-      "total_path": 5085330.0,
+      "total_path": 5077785.0,
       "status": "в наличии в МСК"
     },
     {
@@ -230,12 +230,12 @@
     {
       "sku": "MZ320015",
       "name": "Трансмиссионное масло Mitsubishi ATF SP-III, для АКПП и ГУР, (Таиланд), (5л)",
-      "qty": 110.0,
+      "qty": 108.0,
       "per_pallet": 144.0,
       "pallets": 1.0,
       "price_path": 2746.0,
       "price_premium": 3131.0,
-      "total_path": 302060.0,
+      "total_path": 296568.0,
       "status": "в наличии в МСК"
     },
     {
@@ -922,9 +922,9 @@
   ],
   "totals": {
     "stock": {
-      "qty": 25031.0,
+      "qty": 24988.0,
       "pallets": 129.0,
-      "total_path": 60742605.0,
+      "total_path": 60549726.0,
       "count": 26
     },
     "transit": {
