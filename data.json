@@ -43,12 +43,12 @@
     {
       "sku": "08880-83717",
       "name": "Моторное масло Lexus SN 5W-40 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 2585.0,
+      "qty": 2584.0,
       "per_pallet": 144.0,
       "pallets": 18.0,
       "price_path": 2537.0,
       "price_premium": 2893.0,
-      "total_path": 6558145.0,
+      "total_path": 6555608.0,
       "status": "в наличии в МСК"
     },
     {
@@ -65,12 +65,12 @@
     {
       "sku": "LIM10038-1EN",
       "name": "Моторное масло Mazda \"GOLDEN\" SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (1л)",
-      "qty": 118.0,
+      "qty": 120.0,
       "per_pallet": 480.0,
       "pallets": 1.0,
       "price_path": 802.0,
       "price_premium": 915.0,
-      "total_path": 94636.0,
+      "total_path": 96240.0,
       "status": "в наличии в МСК"
     },
     {
@@ -153,23 +153,23 @@
     {
       "sku": "MZ321232",
       "name": "Моторное масло Mitsubishi SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 2312.0,
+      "qty": 2311.0,
       "per_pallet": 162.0,
       "pallets": 15.0,
       "price_path": 3205.0,
       "price_premium": 3654.0,
-      "total_path": 7409960.0,
+      "total_path": 7406755.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "08880-83714",
       "name": "Моторное масло Toyota SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 2023.0,
+      "qty": 2022.0,
       "per_pallet": 144.0,
       "pallets": 15.0,
       "price_path": 2515.0,
       "price_premium": 2868.0,
-      "total_path": 5087845.0,
+      "total_path": 5085330.0,
       "status": "в наличии в МСК"
     },
     {
@@ -252,12 +252,12 @@
     {
       "sku": "KE90799932",
       "name": "Трансмиссионное масло Nissan Differential Fluid 80W-90 / GL-5, для МКПП, (Европа), (1л)",
-      "qty": 243.0,
+      "qty": 234.0,
       "per_pallet": 480.0,
       "pallets": 1.0,
       "price_path": 1757.0,
       "price_premium": 2003.0,
-      "total_path": 426951.0,
+      "total_path": 411138.0,
       "status": "в наличии в МСК"
     },
     {
@@ -922,9 +922,9 @@
   ],
   "totals": {
     "stock": {
-      "qty": 25041.0,
+      "qty": 25031.0,
       "pallets": 129.0,
-      "total_path": 60765071.0,
+      "total_path": 60742605.0,
       "count": 26
     },
     "transit": {
