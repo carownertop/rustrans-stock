@@ -2,7 +2,7 @@
   "meta": {
     "phone": "89180863874",
     "site": "https://rustrans-logistic.ru/",
-    "usd_rate": "85,1645",
+    "usd_rate": "85,1293",
     "usd_date": "19.08.2026"
   },
   "updated": "19.08.2026",
@@ -76,12 +76,12 @@
     {
       "sku": "LIM10038-4EN",
       "name": "Моторное масло Mazda \"GOLDEN\" SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1371.0,
+      "qty": 1372.0,
       "per_pallet": 144.0,
       "pallets": 10.0,
       "price_path": 3266.0,
       "price_premium": 3724.0,
-      "total_path": 4477686.0,
+      "total_path": 4480952.0,
       "status": "в наличии в МСК"
     },
     {
@@ -109,12 +109,12 @@
     {
       "sku": "A000989320911ABDW",
       "name": "Моторное масло Mercedes-Benz 5W-30 / MB 229.51, бензин/дизель, (Бельгия), (1л.)",
-      "qty": 130.0,
+      "qty": 129.0,
       "per_pallet": 576.0,
       "pallets": 1.0,
       "price_path": 1650.0,
       "price_premium": 1881.0,
-      "total_path": 214500.0,
+      "total_path": 212850.0,
       "status": "в наличии в МСК"
     },
     {
@@ -924,7 +924,7 @@
     "stock": {
       "qty": 24367.0,
       "pallets": 124.0,
-      "total_path": 59076080.0,
+      "total_path": 59077696.0,
       "count": 26
     },
     "transit": {
