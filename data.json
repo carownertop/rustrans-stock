@@ -2,7 +2,7 @@
   "meta": {
     "phone": "89180863874",
     "site": "https://rustrans-logistic.ru/",
-    "usd_rate": "85,1293",
+    "usd_rate": "83,355",
     "usd_date": "20.08.2026"
   },
   "updated": "20.08.2026",
@@ -43,12 +43,12 @@
     {
       "sku": "08880-83717",
       "name": "Моторное масло Lexus SN 5W-40 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 2147.0,
+      "qty": 2146.0,
       "per_pallet": 144.0,
       "pallets": 15.0,
       "price_path": 2541.0,
       "price_premium": 2897.0,
-      "total_path": 5455527.0,
+      "total_path": 5452986.0,
       "status": "в наличии в МСК"
     },
     {
@@ -922,9 +922,9 @@
   ],
   "totals": {
     "stock": {
-      "qty": 24195.0,
+      "qty": 24194.0,
       "pallets": 123.0,
-      "total_path": 58749650.0,
+      "total_path": 58747109.0,
       "count": 26
     },
     "transit": {
