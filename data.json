@@ -32,12 +32,12 @@
     {
       "sku": "08234P99F4PY1",
       "name": "Моторное масло Honda SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 35.0,
+      "qty": 33.0,
       "per_pallet": 144.0,
       "pallets": 1.0,
       "price_path": 3374.0,
       "price_premium": 3847.0,
-      "total_path": 118090.0,
+      "total_path": 111342.0,
       "status": "в наличии в МСК"
     },
     {
@@ -76,12 +76,12 @@
     {
       "sku": "LIM10038-4EN",
       "name": "Моторное масло Mazda \"GOLDEN\" SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1243.0,
+      "qty": 1240.0,
       "per_pallet": 144.0,
       "pallets": 9.0,
       "price_path": 3197.0,
       "price_premium": 3645.0,
-      "total_path": 3973871.0,
+      "total_path": 3964280.0,
       "status": "в наличии в МСК"
     },
     {
@@ -109,12 +109,12 @@
     {
       "sku": "A000989320911ABDW",
       "name": "Моторное масло Mercedes-Benz 5W-30 / MB 229.51, бензин/дизель, (Бельгия), (1л.)",
-      "qty": 105.0,
+      "qty": 104.0,
       "per_pallet": 576.0,
       "pallets": 1.0,
       "price_path": 1615.0,
       "price_premium": 1842.0,
-      "total_path": 169575.0,
+      "total_path": 167960.0,
       "status": "в наличии в МСК"
     },
     {
@@ -153,23 +153,23 @@
     {
       "sku": "MZ321232",
       "name": "Моторное масло Mitsubishi SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 2138.0,
+      "qty": 2140.0,
       "per_pallet": 162.0,
       "pallets": 14.0,
       "price_path": 3081.0,
       "price_premium": 3513.0,
-      "total_path": 6587178.0,
+      "total_path": 6593340.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "08880-83714",
       "name": "Моторное масло Toyota SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1724.0,
+      "qty": 1721.0,
       "per_pallet": 144.0,
       "pallets": 12.0,
       "price_path": 2467.0,
       "price_premium": 2813.0,
-      "total_path": 4253108.0,
+      "total_path": 4245707.0,
       "status": "в наличии в МСК"
     },
     {
@@ -230,12 +230,12 @@
     {
       "sku": "MZ320015",
       "name": "Трансмиссионное масло Mitsubishi ATF SP-III, для АКПП и ГУР, (Таиланд), (5л)",
-      "qty": 86.0,
+      "qty": 85.0,
       "per_pallet": 144.0,
       "pallets": 1.0,
       "price_path": 2692.0,
       "price_premium": 3069.0,
-      "total_path": 231512.0,
+      "total_path": 228820.0,
       "status": "в наличии в МСК"
     },
     {
@@ -922,9 +922,9 @@
   ],
   "totals": {
     "stock": {
-      "qty": 23587.0,
+      "qty": 23579.0,
       "pallets": 121.0,
-      "total_path": 56025404.0,
+      "total_path": 56003519.0,
       "count": 26
     },
     "transit": {
