@@ -2,7 +2,7 @@
   "meta": {
     "phone": "89180863874",
     "site": "https://rustrans-logistic.ru/",
-    "usd_rate": "83,355",
+    "usd_rate": "82,9211",
     "usd_date": "21.08.2026"
   },
   "updated": "21.08.2026",
@@ -54,12 +54,12 @@
     {
       "sku": "08880-84136",
       "name": "Моторное масло Lexus SP 5W-40 / ILSAC GF-6, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 204.0,
+      "qty": 186.0,
       "per_pallet": 144.0,
       "pallets": 2.0,
       "price_path": 2487.0,
       "price_premium": 2836.0,
-      "total_path": 507348.0,
+      "total_path": 462582.0,
       "status": "в наличии в МСК"
     },
     {
@@ -164,12 +164,12 @@
     {
       "sku": "08880-83714",
       "name": "Моторное масло Toyota SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1721.0,
+      "qty": 1719.0,
       "per_pallet": 144.0,
       "pallets": 12.0,
       "price_path": 2467.0,
       "price_premium": 2813.0,
-      "total_path": 4245707.0,
+      "total_path": 4240773.0,
       "status": "в наличии в МСК"
     },
     {
@@ -922,9 +922,9 @@
   ],
   "totals": {
     "stock": {
-      "qty": 23579.0,
+      "qty": 23559.0,
       "pallets": 121.0,
-      "total_path": 56003519.0,
+      "total_path": 55953819.0,
       "count": 26
     },
     "transit": {
