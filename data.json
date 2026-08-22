@@ -76,12 +76,12 @@
     {
       "sku": "LIM10038-4EN",
       "name": "Моторное масло Mazda \"GOLDEN\" SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1238.0,
+      "qty": 1237.0,
       "per_pallet": 144.0,
       "pallets": 9.0,
       "price_path": 3180.0,
       "price_premium": 3626.0,
-      "total_path": 3936840.0,
+      "total_path": 3933660.0,
       "status": "в наличии в МСК"
     },
     {
@@ -153,23 +153,23 @@
     {
       "sku": "MZ321232",
       "name": "Моторное масло Mitsubishi SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 2132.0,
+      "qty": 2131.0,
       "per_pallet": 162.0,
       "pallets": 14.0,
       "price_path": 3066.0,
       "price_premium": 3496.0,
-      "total_path": 6536712.0,
+      "total_path": 6533646.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "08880-83714",
       "name": "Моторное масло Toyota SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1709.0,
+      "qty": 1708.0,
       "per_pallet": 144.0,
       "pallets": 12.0,
       "price_path": 2455.0,
       "price_premium": 2799.0,
-      "total_path": 4195595.0,
+      "total_path": 4193140.0,
       "status": "в наличии в МСК"
     },
     {
@@ -922,9 +922,9 @@
   ],
   "totals": {
     "stock": {
-      "qty": 23526.0,
+      "qty": 23523.0,
       "pallets": 121.0,
-      "total_path": 55573834.0,
+      "total_path": 55565133.0,
       "count": 26
     },
     "transit": {
