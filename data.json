@@ -2,7 +2,7 @@
   "meta": {
     "phone": "89180863874",
     "site": "https://rustrans-logistic.ru/",
-    "usd_rate": "82,9211",
+    "usd_rate": "83,2878",
     "usd_date": "24.08.2026"
   },
   "updated": "24.08.2026",
@@ -21,12 +21,12 @@
     {
       "sku": "83215B5BFA4",
       "name": "Моторное масло BMW Twin Power Turbo SN 5W-30 Longlife-04 (C3), (Германия), (1л)",
-      "qty": 6358.0,
+      "qty": 6334.0,
       "per_pallet": 576.0,
-      "pallets": 12.0,
+      "pallets": 11.0,
       "price_path": 1352.0,
       "price_premium": 1542.0,
-      "total_path": 8596016.0,
+      "total_path": 8563568.0,
       "status": "в наличии в МСК"
     },
     {
@@ -43,12 +43,12 @@
     {
       "sku": "08880-83717",
       "name": "Моторное масло Lexus SN 5W-40 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1783.0,
+      "qty": 1785.0,
       "per_pallet": 144.0,
       "pallets": 13.0,
       "price_path": 2475.0,
       "price_premium": 2822.0,
-      "total_path": 4412925.0,
+      "total_path": 4417875.0,
       "status": "в наличии в МСК"
     },
     {
@@ -76,12 +76,12 @@
     {
       "sku": "LIM10038-4EN",
       "name": "Моторное масло Mazda \"GOLDEN\" SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1228.0,
+      "qty": 1229.0,
       "per_pallet": 144.0,
       "pallets": 9.0,
       "price_path": 3180.0,
       "price_premium": 3626.0,
-      "total_path": 3905040.0,
+      "total_path": 3908220.0,
       "status": "в наличии в МСК"
     },
     {
@@ -153,34 +153,34 @@
     {
       "sku": "MZ321232",
       "name": "Моторное масло Mitsubishi SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 2110.0,
+      "qty": 2105.0,
       "per_pallet": 162.0,
-      "pallets": 14.0,
+      "pallets": 13.0,
       "price_path": 3066.0,
       "price_premium": 3496.0,
-      "total_path": 6469260.0,
+      "total_path": 6453930.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "08880-83714",
       "name": "Моторное масло Toyota SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1666.0,
+      "qty": 1661.0,
       "per_pallet": 144.0,
       "pallets": 12.0,
       "price_path": 2455.0,
       "price_premium": 2799.0,
-      "total_path": 4090030.0,
+      "total_path": 4077755.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "90790BS455",
       "name": "Моторное масло YAMALUBE 4Т SJ 10W-40, для 4-такт. лодочных моторов 4 Stroke, (Сингапур), (1л)",
-      "qty": 931.0,
+      "qty": 859.0,
       "per_pallet": 504.0,
       "pallets": 2.0,
       "price_path": 843.0,
       "price_premium": 962.0,
-      "total_path": 784833.0,
+      "total_path": 724137.0,
       "status": "в наличии в МСК"
     },
     {
@@ -922,9 +922,9 @@
   ],
   "totals": {
     "stock": {
-      "qty": 22919.0,
-      "pallets": 119.0,
-      "total_path": 54350792.0,
+      "qty": 22816.0,
+      "pallets": 117.0,
+      "total_path": 54238173.0,
       "count": 26
     },
     "transit": {
