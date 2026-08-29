@@ -32,12 +32,12 @@
     {
       "sku": "08234P99F4PY1",
       "name": "Моторное масло Honda SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 49.0,
+      "qty": 48.0,
       "per_pallet": 144.0,
       "pallets": 1.0,
       "price_path": 3464.0,
       "price_premium": 3949.0,
-      "total_path": 169736.0,
+      "total_path": 166272.0,
       "status": "в наличии в МСК"
     },
     {
@@ -76,12 +76,12 @@
     {
       "sku": "LIM10038-4EN",
       "name": "Моторное масло Mazda \"GOLDEN\" SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1211.0,
+      "qty": 1210.0,
       "per_pallet": 144.0,
       "pallets": 9.0,
       "price_path": 3282.0,
       "price_premium": 3742.0,
-      "total_path": 3974502.0,
+      "total_path": 3971220.0,
       "status": "в наличии в МСК"
     },
     {
@@ -153,12 +153,12 @@
     {
       "sku": "MZ321232",
       "name": "Моторное масло Mitsubishi SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 2044.0,
+      "qty": 2038.0,
       "per_pallet": 162.0,
       "pallets": 13.0,
       "price_path": 3164.0,
       "price_premium": 3607.0,
-      "total_path": 6467216.0,
+      "total_path": 6448232.0,
       "status": "в наличии в МСК"
     },
     {
@@ -285,12 +285,12 @@
     {
       "sku": "08886-81875",
       "name": "Трансмиссионное масло Toyota CVTF Fluid FE, для вариаторов, (Таиланд), (4л)",
-      "qty": 305.0,
+      "qty": 303.0,
       "per_pallet": 144.0,
       "pallets": 3.0,
       "price_path": 4758.0,
       "price_premium": 5425.0,
-      "total_path": 1451190.0,
+      "total_path": 1441674.0,
       "status": "в наличии в МСК"
     }
   ],
@@ -922,9 +922,9 @@
   ],
   "totals": {
     "stock": {
-      "qty": 22110.0,
+      "qty": 22100.0,
       "pallets": 114.0,
-      "total_path": 54223105.0,
+      "total_path": 54187859.0,
       "count": 26
     },
     "transit": {
