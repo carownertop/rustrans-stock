@@ -43,23 +43,23 @@
     {
       "sku": "08880-83717",
       "name": "Моторное масло Lexus SN 5W-40 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1703.0,
+      "qty": 1702.0,
       "per_pallet": 144.0,
       "pallets": 12.0,
       "price_path": 2555.0,
       "price_premium": 2913.0,
-      "total_path": 4351165.0,
+      "total_path": 4348610.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "08880-84136",
       "name": "Моторное масло Lexus SP 5W-40 / ILSAC GF-6, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 185.0,
+      "qty": 183.0,
       "per_pallet": 144.0,
       "pallets": 2.0,
       "price_path": 2555.0,
       "price_premium": 2913.0,
-      "total_path": 472675.0,
+      "total_path": 467565.0,
       "status": "в наличии в МСК"
     },
     {
@@ -922,9 +922,9 @@
   ],
   "totals": {
     "stock": {
-      "qty": 22100.0,
+      "qty": 22097.0,
       "pallets": 114.0,
-      "total_path": 54187859.0,
+      "total_path": 54180194.0,
       "count": 26
     },
     "transit": {
