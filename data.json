@@ -3,9 +3,9 @@
     "phone": "89180863874",
     "site": "https://rustrans-logistic.ru/",
     "usd_rate": "85,6007",
-    "usd_date": "29.08.2026"
+    "usd_date": "30.08.2026"
   },
-  "updated": "29.08.2026",
+  "updated": "30.08.2026",
   "stock": [
     {
       "sku": "83122405887",
@@ -32,23 +32,23 @@
     {
       "sku": "08234P99F4PY1",
       "name": "Моторное масло Honda SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 46.0,
+      "qty": 45.0,
       "per_pallet": 144.0,
       "pallets": 1.0,
       "price_path": 3464.0,
       "price_premium": 3949.0,
-      "total_path": 159344.0,
+      "total_path": 155880.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "08880-83717",
       "name": "Моторное масло Lexus SN 5W-40 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1702.0,
+      "qty": 1701.0,
       "per_pallet": 144.0,
       "pallets": 12.0,
       "price_path": 2555.0,
       "price_premium": 2913.0,
-      "total_path": 4348610.0,
+      "total_path": 4346055.0,
       "status": "в наличии в МСК"
     },
     {
@@ -153,23 +153,23 @@
     {
       "sku": "MZ321232",
       "name": "Моторное масло Mitsubishi SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 2037.0,
+      "qty": 2034.0,
       "per_pallet": 162.0,
       "pallets": 13.0,
       "price_path": 3164.0,
       "price_premium": 3607.0,
-      "total_path": 6445068.0,
+      "total_path": 6435576.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "08880-83714",
       "name": "Моторное масло Toyota SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1454.0,
+      "qty": 1452.0,
       "per_pallet": 144.0,
       "pallets": 11.0,
       "price_path": 2533.0,
       "price_premium": 2888.0,
-      "total_path": 3682982.0,
+      "total_path": 3677916.0,
       "status": "в наличии в МСК"
     },
     {
@@ -230,12 +230,12 @@
     {
       "sku": "MZ320015",
       "name": "Трансмиссионное масло Mitsubishi ATF SP-III, для АКПП и ГУР, (Таиланд), (5л)",
-      "qty": 69.0,
+      "qty": 68.0,
       "per_pallet": 144.0,
       "pallets": 1.0,
       "price_path": 2765.0,
       "price_premium": 3153.0,
-      "total_path": 190785.0,
+      "total_path": 188020.0,
       "status": "в наличии в МСК"
     },
     {
@@ -922,9 +922,9 @@
   ],
   "totals": {
     "stock": {
-      "qty": 22092.0,
+      "qty": 22084.0,
       "pallets": 114.0,
-      "total_path": 54160428.0,
+      "total_path": 54137086.0,
       "count": 26
     },
     "transit": {
