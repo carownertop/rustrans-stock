@@ -43,12 +43,12 @@
     {
       "sku": "08880-83717",
       "name": "Моторное масло Lexus SN 5W-40 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1701.0,
+      "qty": 1689.0,
       "per_pallet": 144.0,
       "pallets": 12.0,
       "price_path": 2555.0,
       "price_premium": 2913.0,
-      "total_path": 4346055.0,
+      "total_path": 4315395.0,
       "status": "в наличии в МСК"
     },
     {
@@ -922,9 +922,9 @@
   ],
   "totals": {
     "stock": {
-      "qty": 22039.0,
+      "qty": 22027.0,
       "pallets": 114.0,
-      "total_path": 54004143.0,
+      "total_path": 53973483.0,
       "count": 26
     },
     "transit": {
