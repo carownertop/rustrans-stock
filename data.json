@@ -2,7 +2,7 @@
   "meta": {
     "phone": "89180863874",
     "site": "https://rustrans-logistic.ru/",
-    "usd_rate": "85,6007",
+    "usd_rate": "86,3793",
     "usd_date": "31.08.2026"
   },
   "updated": "31.08.2026",
@@ -43,12 +43,12 @@
     {
       "sku": "08880-83717",
       "name": "Моторное масло Lexus SN 5W-40 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1689.0,
+      "qty": 1690.0,
       "per_pallet": 144.0,
       "pallets": 12.0,
       "price_path": 2555.0,
       "price_premium": 2913.0,
-      "total_path": 4315395.0,
+      "total_path": 4317950.0,
       "status": "в наличии в МСК"
     },
     {
@@ -76,12 +76,12 @@
     {
       "sku": "LIM10038-4EN",
       "name": "Моторное масло Mazda \"GOLDEN\" SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1207.0,
+      "qty": 1206.0,
       "per_pallet": 144.0,
       "pallets": 9.0,
       "price_path": 3282.0,
       "price_premium": 3742.0,
-      "total_path": 3961374.0,
+      "total_path": 3958092.0,
       "status": "в наличии в МСК"
     },
     {
@@ -153,12 +153,12 @@
     {
       "sku": "MZ321232",
       "name": "Моторное масло Mitsubishi SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 2015.0,
+      "qty": 2016.0,
       "per_pallet": 162.0,
       "pallets": 13.0,
       "price_path": 3164.0,
       "price_premium": 3607.0,
-      "total_path": 6375460.0,
+      "total_path": 6378624.0,
       "status": "в наличии в МСК"
     },
     {
@@ -922,9 +922,9 @@
   ],
   "totals": {
     "stock": {
-      "qty": 22027.0,
+      "qty": 22028.0,
       "pallets": 114.0,
-      "total_path": 53973483.0,
+      "total_path": 53975920.0,
       "count": 26
     },
     "transit": {
