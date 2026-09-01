@@ -1,0 +1,11 @@
+[Unit]
+Description=RTL stock: pull GitHub snapshot into sslip.io webroot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/opt/rustrans-stock/pull_github_to_webroot.sh
+
+[Install]
+WantedBy=multi-user.target
