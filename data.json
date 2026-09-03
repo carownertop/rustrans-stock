@@ -32,34 +32,34 @@
     {
       "sku": "08234P99F4PY1",
       "name": "Моторное масло Honda SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 36.0,
+      "qty": 160.0,
       "per_pallet": 144.0,
-      "pallets": 1.0,
+      "pallets": 2.0,
       "price_path": 3521.0,
       "price_premium": 4014.0,
-      "total_path": 126756.0,
+      "total_path": 563360.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "08880-83717",
       "name": "Моторное масло Lexus SN 5W-40 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1690.0,
+      "qty": 1794.0,
       "per_pallet": 144.0,
-      "pallets": 12.0,
+      "pallets": 13.0,
       "price_path": 2595.0,
       "price_premium": 2959.0,
-      "total_path": 4385550.0,
+      "total_path": 4655430.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "08880-84136",
       "name": "Моторное масло Lexus SP 5W-40 / ILSAC GF-6, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 180.0,
+      "qty": 293.0,
       "per_pallet": 144.0,
-      "pallets": 2.0,
+      "pallets": 3.0,
       "price_path": 2595.0,
       "price_premium": 2959.0,
-      "total_path": 467100.0,
+      "total_path": 760335.0,
       "status": "в наличии в МСК"
     },
     {
@@ -153,34 +153,34 @@
     {
       "sku": "MZ321232",
       "name": "Моторное масло Mitsubishi SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1996.0,
+      "qty": 2148.0,
       "per_pallet": 162.0,
-      "pallets": 13.0,
+      "pallets": 14.0,
       "price_path": 3061.0,
       "price_premium": 3490.0,
-      "total_path": 6109756.0,
+      "total_path": 6575028.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "08880-83714",
       "name": "Моторное масло Toyota SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1425.0,
+      "qty": 1424.0,
       "per_pallet": 144.0,
       "pallets": 10.0,
       "price_path": 2575.0,
       "price_premium": 2936.0,
-      "total_path": 3669375.0,
+      "total_path": 3666800.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "90790BS455",
       "name": "Моторное масло YAMALUBE 4Т SJ 10W-40, для 4-такт. лодочных моторов 4 Stroke, (Сингапур), (1л)",
-      "qty": 696.0,
+      "qty": 695.0,
       "per_pallet": 504.0,
       "pallets": 2.0,
       "price_path": 884.0,
       "price_premium": 1008.0,
-      "total_path": 615264.0,
+      "total_path": 614380.0,
       "status": "в наличии в МСК"
     },
     {
@@ -230,12 +230,12 @@
     {
       "sku": "MZ320015",
       "name": "Трансмиссионное масло Mitsubishi ATF SP-III, для АКПП и ГУР, (Таиланд), (5л)",
-      "qty": 60.0,
+      "qty": 90.0,
       "per_pallet": 144.0,
       "pallets": 1.0,
       "price_path": 2809.0,
       "price_premium": 3203.0,
-      "total_path": 168540.0,
+      "total_path": 252810.0,
       "status": "в наличии в МСК"
     },
     {
@@ -252,34 +252,34 @@
     {
       "sku": "KE90799932",
       "name": "Трансмиссионное масло Nissan Differential Fluid 80W-90 / GL-5, для МКПП, (Европа), (1л)",
-      "qty": 234.0,
+      "qty": 233.0,
       "per_pallet": 480.0,
       "pallets": 1.0,
       "price_path": 1798.0,
       "price_premium": 2050.0,
-      "total_path": 420732.0,
+      "total_path": 418934.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "08886-81885",
       "name": "Трансмиссионное масло Toyota ATF WS, для АКПП, (Таиланд), (4л)",
-      "qty": 706.0,
+      "qty": 736.0,
       "per_pallet": 144.0,
-      "pallets": 5.0,
+      "pallets": 6.0,
       "price_path": 4419.0,
       "price_premium": 5038.0,
-      "total_path": 3119814.0,
+      "total_path": 3252384.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "08886-02805",
       "name": "Трансмиссионное масло Toyota ATF WS, для АКПП, (Япония), (4л.)",
-      "qty": 793.0,
+      "qty": 803.0,
       "per_pallet": 144.0,
       "pallets": 6.0,
       "price_path": 5325.0,
       "price_premium": 5896.0,
-      "total_path": 4222725.0,
+      "total_path": 4275975.0,
       "status": "в наличии в МСК"
     },
     {
@@ -928,9 +928,9 @@
   ],
   "totals": {
     "stock": {
-      "qty": 21981.0,
-      "pallets": 113.0,
-      "total_path": 54356097.0,
+      "qty": 22541.0,
+      "pallets": 118.0,
+      "total_path": 56085921.0,
       "count": 26
     },
     "transit": {
