@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import base64
 import csv
 import html
 import io
@@ -18,9 +19,25 @@ SHEETS = {
     "stock": "На складе МСК",
     "transit": "В пути",
     "discount": "Уценка МСК",
+    "barrels": "Бочки",
 }
 ROOT = Path(__file__).resolve().parent
 MSK = timezone(timedelta(hours=3))
+JUNK_SKU = {"артикул", "#n/a", "n/a", "—", "-", "номенклатура"}
+
+
+def logo_src() -> str:
+    raw = (ROOT / "logo.png").read_bytes()
+    return "data:image/png;base64," + base64.b64encode(raw).decode("ascii")
+
+
+def is_real_row(sku: str, name: str = "") -> bool:
+    key = (sku or "").strip().lower()
+    if not key or key in JUNK_SKU:
+        return False
+    if (name or "").strip().lower() in JUNK_SKU:
+        return False
+    return True
 
 
 def fetch_csv(sheet_name: str) -> list[list[str]]:
@@ -76,13 +93,17 @@ def parse_stock(rows: list[list[str]]) -> tuple[dict, list[dict]]:
     for row in rows[7:]:
         if not row or not row[0].strip():
             continue
+        sku = row[0].strip()
+        name = row[1].strip() if len(row) > 1 else ""
+        if not is_real_row(sku, name):
+            continue
         qty = parse_num(row[2] if len(row) > 2 else "")
         price = parse_num(row[5] if len(row) > 5 else "")
         premium = parse_num(row[6] if len(row) > 6 else "")
         items.append(
             {
-                "sku": row[0].strip(),
-                "name": row[1].strip() if len(row) > 1 else "",
+                "sku": sku,
+                "name": name,
                 "qty": qty,
                 "per_pallet": parse_num(row[3] if len(row) > 3 else ""),
                 "pallets": parse_num(row[4] if len(row) > 4 else ""),
@@ -100,13 +121,17 @@ def parse_transit(rows: list[list[str]]) -> list[dict]:
     for row in rows[1:]:
         if not row or not row[0].strip():
             continue
+        sku = row[0].strip()
+        name = row[1].strip() if len(row) > 1 else ""
+        if not is_real_row(sku, name):
+            continue
         qty = parse_num(row[2] if len(row) > 2 else "")
         price = parse_num(row[6] if len(row) > 6 else "")
         premium = parse_num(row[7] if len(row) > 7 else "")
         items.append(
             {
-                "sku": row[0].strip(),
-                "name": row[1].strip() if len(row) > 1 else "",
+                "sku": sku,
+                "name": name,
                 "qty": qty,
                 "per_pallet": parse_num(row[3] if len(row) > 3 else ""),
                 "pallets": parse_num(row[4] if len(row) > 4 else ""),
@@ -140,6 +165,60 @@ def parse_discount(rows: list[list[str]]) -> list[dict]:
                 "total": qty * price,
                 "org": row[6].strip() if len(row) > 6 else "",
                 "defect": defect,
+            }
+        )
+    return items
+
+
+def parse_barrels(rows: list[list[str]]) -> list[dict]:
+    """Parse Бочки sheet with warehouse sections (Москва / Новокузнецк)."""
+    items: list[dict] = []
+    location = "Москва"
+    for row in rows:
+        if not row:
+            continue
+        first = (row[0] if row else "").strip()
+        second = (row[1] if len(row) > 1 else "").strip()
+        first_l = first.lower()
+
+        if not first:
+            continue
+
+        # Section title without product data, e.g. "Новокузнецк"
+        if not second and not any(
+            (row[i] if len(row) > i else "").strip() for i in range(2, 5)
+        ):
+            if "артикул" not in first_l:
+                location = first
+                continue
+
+        # Column headers: "Артикул" or "Москва Артикул"
+        if first_l == "артикул" or first_l.endswith(" артикул") or first_l.startswith(
+            "артикул"
+        ):
+            if "москва" in first_l:
+                location = "Москва"
+            continue
+        if second.lower() == "номенклатура" and first_l in {"артикул", "москва артикул"}:
+            if "москва" in first_l:
+                location = "Москва"
+            continue
+
+        if not is_real_row(first, second):
+            continue
+
+        qty = parse_num(row[2] if len(row) > 2 else "")
+        price = parse_num(row[3] if len(row) > 3 else "")
+        eta = (row[4] if len(row) > 4 else "").strip()
+        items.append(
+            {
+                "sku": first,
+                "name": second,
+                "location": location,
+                "qty": qty,
+                "price": price,
+                "total": qty * price,
+                "eta": eta,
             }
         )
     return items
@@ -209,11 +288,33 @@ def render_discount_rows(items: list[dict]) -> str:
     return "".join(rows)
 
 
+def render_barrel_rows(items: list[dict]) -> str:
+    rows = []
+    for i, item in enumerate(items, 1):
+        rows.append(
+            f"""
+      <tr>
+        <td class="num">{i}</td>
+        <td class="sku">{esc(item['sku'])}</td>
+        <td class="name">{esc(item['name'])}</td>
+        <td class="col-brand">{esc(item['location'])}</td>
+        <td class="num">{fmt_int(item['qty'])}</td>
+        <td class="money">{fmt_money(item['price'])}</td>
+        <td class="money total">{fmt_money(item['total'])}</td>
+        <td class="date">{esc(item.get('eta', ''))}</td>
+      </tr>"""
+        )
+    return "".join(rows)
+
+
 def render_html(data: dict) -> str:
     ts = data["totals"]
     meta = data["meta"]
     avg_discount = (
         ts["discount"]["total"] / ts["discount"]["qty"] if ts["discount"]["qty"] else 0
+    )
+    avg_barrels = (
+        ts["barrels"]["total"] / ts["barrels"]["qty"] if ts["barrels"]["qty"] else 0
     )
     return f"""<!DOCTYPE html>
 <html lang="ru">
@@ -221,9 +322,9 @@ def render_html(data: dict) -> str:
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Наличие · Rustrans-Logistic</title>
-  <link rel="icon" href="/rustrans-stock/favicon.svg" type="image/svg+xml" />
-  <link rel="icon" href="/rustrans-stock/favicon-32.png" type="image/png" sizes="32x32" />
-  <link rel="apple-touch-icon" href="/rustrans-stock/apple-touch-icon.png" />
+  <link rel="icon" href="https://141-105-71-134.sslip.io/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="https://141-105-71-134.sslip.io/favicon-32.png" type="image/png" sizes="32x32" />
+  <link rel="apple-touch-icon" href="https://141-105-71-134.sslip.io/apple-touch-icon.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -289,19 +390,27 @@ def render_html(data: dict) -> str:
       position: relative;
       z-index: 1;
     }}
-    .brand-lockup {{
+    .brand-mark {{
+      flex: 0 0 auto;
       display: flex;
       align-items: center;
+      justify-content: center;
       background: #fff;
-      border-radius: 16px;
-      padding: 10px 14px;
-      box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+      border-radius: 12px;
+      padding: 8px 14px;
+      box-shadow: 0 6px 16px rgba(0,0,0,.18);
     }}
-    .brand-lockup img {{
+    .brand-mark img {{
       display: block;
-      height: 52px;
+      height: 64px;
       width: auto;
-      max-width: min(320px, 70vw);
+      max-width: min(420px, 72vw);
+      object-fit: contain;
+      object-position: center;
+      background: transparent;
+      padding: 0;
+      border-radius: 0;
+      box-shadow: none;
     }}
     td.col-brand {{
       white-space: nowrap;
@@ -333,7 +442,7 @@ def render_html(data: dict) -> str:
     }}
     .summary {{
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(4, 1fr);
       gap: 14px;
       margin-top: 24px;
       position: relative;
@@ -503,10 +612,13 @@ def render_html(data: dict) -> str:
       to {{ opacity: 1; transform: none; }}
     }}
     @media (max-width: 900px) {{
-      .summary {{ grid-template-columns: 1fr; }}
+      .summary {{ grid-template-columns: 1fr 1fr; }}
       .totals-bar {{ grid-template-columns: 1fr 1fr; }}
       .hero {{ padding: 22px; border-radius: 22px; }}
       .hero-meta {{ text-align: left; }}
+    }}
+    @media (max-width: 560px) {{
+      .summary {{ grid-template-columns: 1fr; }}
     }}
   </style>
 </head>
@@ -514,17 +626,17 @@ def render_html(data: dict) -> str:
   <div class="shell">
     <header class="hero">
       <div class="hero-top">
-        <div class="brand-lockup">
-          <img src="logo.png" alt="Rustrans-Logistic.ru — оригинальные импортные масла" width="444" height="110" />
+        <div class="brand-mark">
+          <img src="{logo_src()}" alt="Rustrans-Logistic.ru" />
         </div>
         <div class="hero-meta">
           Данные на <b>{esc(data['updated'])}</b><br />
           Курс USD: <b>{esc(meta.get('usd_rate') or '—')}</b><br />
-          Обновление ежедневно · GitHub Pages
+          Обновление ежедневно
         </div>
       </div>
       <h1>Наличие масел</h1>
-      <p class="lead">Сводка по складу МСК, товару в пути и уценке. Стоимость считается по цене «в пути» за канистру (для уценки — по цене уценки).</p>
+      <p class="lead">Сводка по складу МСК, товару в пути, уценке и бочкам. Стоимость считается по цене «в пути» за канистру (для уценки и бочек — по их цене).</p>
       <div class="summary">
         <div class="summary-card">
           <div class="label">На складе МСК</div>
@@ -541,6 +653,11 @@ def render_html(data: dict) -> str:
           <div class="value">{fmt_money(ts['discount']['total'])}</div>
           <div class="sub">{fmt_int(ts['discount']['count'])} поз. · {fmt_int(ts['discount']['qty'])} шт.</div>
         </div>
+        <div class="summary-card">
+          <div class="label">Бочки</div>
+          <div class="value">{fmt_money(ts['barrels']['total'])}</div>
+          <div class="sub">{fmt_int(ts['barrels']['count'])} поз. · {fmt_int(ts['barrels']['qty'])} шт.</div>
+        </div>
       </div>
     </header>
 
@@ -548,6 +665,7 @@ def render_html(data: dict) -> str:
       <button class="tab active" data-tab="stock" type="button">На складе МСК</button>
       <button class="tab" data-tab="transit" type="button">В пути</button>
       <button class="tab" data-tab="discount" type="button">Уценка МСК</button>
+      <button class="tab" data-tab="barrels" type="button">Бочки</button>
     </nav>
 
     <section class="panel active" id="panel-stock" role="tabpanel">
@@ -675,9 +793,48 @@ def render_html(data: dict) -> str:
       </div>
     </section>
 
+    <section class="panel" id="panel-barrels" role="tabpanel">
+      <div class="card">
+        <div class="totals-bar">
+          <div class="item"><div class="label">Позиций</div><div class="value">{fmt_int(ts['barrels']['count'])}</div></div>
+          <div class="item"><div class="label">Кол-во, шт</div><div class="value">{fmt_int(ts['barrels']['qty'])}</div></div>
+          <div class="item"><div class="label">Средняя цена</div><div class="value">{fmt_money(avg_barrels)}</div></div>
+          <div class="item"><div class="label">Итого сумма</div><div class="value accent">{fmt_money(ts['barrels']['total'])}</div></div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th class="num">№</th>
+                <th>Артикул</th>
+                <th>Номенклатура</th>
+                <th>Склад</th>
+                <th class="num">Кол-во</th>
+                <th class="money">Цена</th>
+                <th class="money">Сумма</th>
+                <th class="date">Приход</th>
+              </tr>
+            </thead>
+            <tbody>
+              {render_barrel_rows(data['barrels'])}
+            </tbody>
+            <tfoot>
+              <tr>
+                <td colspan="4">Итого</td>
+                <td class="num">{fmt_int(ts['barrels']['qty'])}</td>
+                <td></td>
+                <td class="money">{fmt_money(ts['barrels']['total'])}</td>
+                <td></td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+    </section>
+
     <p class="note">
-      Источник: Google Sheets «Наличие масел…». Сумма по позиции = количество × цена в пути (для уценки — × цена уценки).
-      Страница обновляется автоматически каждый день.
+      Источник: Google Sheets «Наличие масел…». Сумма по позиции = количество × цена в пути (для уценки и бочек — × их цена).
+      Страница обновляется автоматически по расписанию.
     </p>
   </div>
 
@@ -687,6 +844,7 @@ def render_html(data: dict) -> str:
       stock: document.getElementById('panel-stock'),
       transit: document.getElementById('panel-transit'),
       discount: document.getElementById('panel-discount'),
+      barrels: document.getElementById('panel-barrels'),
     }};
     tabs.forEach((tab) => {{
       tab.addEventListener('click', () => {{
@@ -706,10 +864,12 @@ def build() -> dict:
     stock_rows = fetch_csv(SHEETS["stock"])
     transit_rows = fetch_csv(SHEETS["transit"])
     discount_rows = fetch_csv(SHEETS["discount"])
+    barrel_rows = fetch_csv(SHEETS["barrels"])
 
     meta, stock = parse_stock(stock_rows)
     transit = parse_transit(transit_rows)
     discount = parse_discount(discount_rows)
+    barrels = parse_barrels(barrel_rows)
 
     updated = meta.get("usd_date") or datetime.now(MSK).strftime("%d.%m.%Y")
     data = {
@@ -718,6 +878,7 @@ def build() -> dict:
         "stock": stock,
         "transit": transit,
         "discount": discount,
+        "barrels": barrels,
         "totals": {
             "stock": {
                 "qty": sum_key(stock, "qty"),
@@ -735,6 +896,11 @@ def build() -> dict:
                 "qty": sum_key(discount, "qty"),
                 "total": sum_key(discount, "total"),
                 "count": len(discount),
+            },
+            "barrels": {
+                "qty": sum_key(barrels, "qty"),
+                "total": sum_key(barrels, "total"),
+                "count": len(barrels),
             },
         },
     }

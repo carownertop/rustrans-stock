@@ -32,12 +32,12 @@
     {
       "sku": "08234P99F4PY1",
       "name": "Моторное масло Honda SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 36.0,
+      "qty": 35.0,
       "per_pallet": 144.0,
       "pallets": 1.0,
       "price_path": 3521.0,
       "price_premium": 4014.0,
-      "total_path": 126756.0,
+      "total_path": 123235.0,
       "status": "в наличии в МСК"
     },
     {
@@ -294,30 +294,7 @@
       "status": "в наличии в МСК"
     }
   ],
-  "transit": [
-    {
-      "sku": "Артикул",
-      "name": "Номенклатура",
-      "qty": 0.0,
-      "per_pallet": 0.0,
-      "pallets": 0.0,
-      "price_path": 0.0,
-      "price_premium": 0.0,
-      "total_path": 0.0,
-      "eta": "Ожидаемая дата прихода"
-    },
-    {
-      "sku": "#N/A",
-      "name": "",
-      "qty": 0.0,
-      "per_pallet": 0.0,
-      "pallets": 0.0,
-      "price_path": 0.0,
-      "price_premium": 0.0,
-      "total_path": 0.0,
-      "eta": ""
-    }
-  ],
+  "transit": [],
   "discount": [
     {
       "sku": "83212465849",
@@ -920,23 +897,57 @@
       "defect": "деформированная  канистра"
     }
   ],
+  "barrels": [
+    {
+      "sku": "A000989630817AAEW",
+      "name": "Моторное масло Mercedes 5W-40 MB 229.5, 200л",
+      "location": "Москва",
+      "qty": 16.0,
+      "price": 169500.0,
+      "total": 2712000.0,
+      "eta": "10.09.2026"
+    },
+    {
+      "sku": "A000989330917ABDW",
+      "name": "Моторное масло Mercedes 5W-30 MB 229.52, 200л",
+      "location": "Москва",
+      "qty": 27.0,
+      "price": 180800.0,
+      "total": 4881600.0,
+      "eta": "10.09.2026"
+    },
+    {
+      "sku": "KLAPJ-0530208",
+      "name": "Моторное масло Nissan SP 5W-30 / ILSAC GF-6, для бенз. двигателей, (Дубай), (208л)",
+      "location": "Новокузнецк",
+      "qty": 15.0,
+      "price": 124300.0,
+      "total": 1864500.0,
+      "eta": ""
+    }
+  ],
   "totals": {
     "stock": {
-      "qty": 21983.0,
+      "qty": 21982.0,
       "pallets": 113.0,
-      "total_path": 54362219.0,
+      "total_path": 54358698.0,
       "count": 26
     },
     "transit": {
       "qty": 0.0,
       "pallets": 0.0,
       "total_path": 0.0,
-      "count": 2
+      "count": 0
     },
     "discount": {
       "qty": 426.0,
       "total": 863835.0,
       "count": 60
+    },
+    "barrels": {
+      "qty": 58.0,
+      "total": 9458100.0,
+      "count": 3
     }
   }
 }
