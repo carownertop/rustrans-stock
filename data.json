@@ -2,7 +2,7 @@
   "meta": {
     "phone": "89180863874",
     "site": "https://rustrans-logistic.ru/",
-    "usd_rate": "86,9963",
+    "usd_rate": "86,8872",
     "usd_date": "03.09.2026"
   },
   "updated": "03.09.2026",
@@ -65,12 +65,12 @@
     {
       "sku": "LIM10038-1EN",
       "name": "Моторное масло Mazda \"GOLDEN\" SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (1л)",
-      "qty": 18.0,
+      "qty": 17.0,
       "per_pallet": 480.0,
       "pallets": 1.0,
       "price_path": 820.0,
       "price_premium": 935.0,
-      "total_path": 14760.0,
+      "total_path": 13940.0,
       "status": "в наличии в МСК"
     },
     {
@@ -928,9 +928,9 @@
   ],
   "totals": {
     "stock": {
-      "qty": 22540.0,
+      "qty": 22539.0,
       "pallets": 118.0,
-      "total_path": 56082860.0,
+      "total_path": 56082040.0,
       "count": 26
     },
     "transit": {
