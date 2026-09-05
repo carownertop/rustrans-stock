@@ -3,9 +3,9 @@
     "phone": "89180863874",
     "site": "https://rustrans-logistic.ru/",
     "usd_rate": "86,5857",
-    "usd_date": "04.09.2026"
+    "usd_date": "05.09.2026"
   },
-  "updated": "04.09.2026",
+  "updated": "05.09.2026",
   "stock": [
     {
       "sku": "83122405887",
@@ -76,12 +76,12 @@
     {
       "sku": "LIM10038-4EN",
       "name": "Моторное масло Mazda \"GOLDEN\" SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1204.0,
+      "qty": 1203.0,
       "per_pallet": 144.0,
       "pallets": 9.0,
       "price_path": 3240.0,
       "price_premium": 3694.0,
-      "total_path": 3900960.0,
+      "total_path": 3897720.0,
       "status": "в наличии в МСК"
     },
     {
@@ -109,12 +109,12 @@
     {
       "sku": "A000989320911ABDW",
       "name": "Моторное масло Mercedes-Benz 5W-30 / MB 229.51, бензин/дизель, (Бельгия), (1л.)",
-      "qty": 104.0,
+      "qty": 103.0,
       "per_pallet": 576.0,
       "pallets": 1.0,
       "price_path": 1637.0,
       "price_premium": 1867.0,
-      "total_path": 170248.0,
+      "total_path": 168611.0,
       "status": "в наличии в МСК"
     },
     {
@@ -153,12 +153,12 @@
     {
       "sku": "MZ321232",
       "name": "Моторное масло Mitsubishi SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 2137.0,
+      "qty": 2136.0,
       "per_pallet": 162.0,
       "pallets": 14.0,
       "price_path": 2974.0,
       "price_premium": 3391.0,
-      "total_path": 6355438.0,
+      "total_path": 6352464.0,
       "status": "в наличии в МСК"
     },
     {
@@ -197,12 +197,12 @@
     {
       "sku": "08269P99Z3FC1",
       "name": "Трансмиссионное масло Honda CVTF TYPE-2 / HCF-2, для вариаторов, (Индонезия), (3,5л)",
-      "qty": 28.0,
+      "qty": 25.0,
       "per_pallet": 144.0,
       "pallets": 1.0,
       "price_path": 6080.0,
       "price_premium": 6932.0,
-      "total_path": 170240.0,
+      "total_path": 152000.0,
       "status": "в наличии в МСК"
     },
     {
@@ -928,9 +928,9 @@
   ],
   "totals": {
     "stock": {
-      "qty": 22519.0,
+      "qty": 22513.0,
       "pallets": 118.0,
-      "total_path": 54388158.0,
+      "total_path": 54362067.0,
       "count": 26
     },
     "transit": {
