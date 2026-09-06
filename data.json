@@ -76,12 +76,12 @@
     {
       "sku": "LIM10038-4EN",
       "name": "Моторное масло Mazda \"GOLDEN\" SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1199.0,
+      "qty": 1198.0,
       "per_pallet": 144.0,
       "pallets": 9.0,
       "price_path": 3240.0,
       "price_premium": 3694.0,
-      "total_path": 3884760.0,
+      "total_path": 3881520.0,
       "status": "в наличии в МСК"
     },
     {
@@ -241,12 +241,12 @@
     {
       "sku": "4024610",
       "name": "Трансмиссионное масло Mitsubishi ATF SP-III, для АКПП и ГУР, (Япония), (4л)",
-      "qty": 100.0,
+      "qty": 98.0,
       "per_pallet": 144.0,
       "pallets": 1.0,
       "price_path": 3521.0,
       "price_premium": 4014.0,
-      "total_path": 352100.0,
+      "total_path": 345058.0,
       "status": "в наличии в МСК"
     },
     {
@@ -928,9 +928,9 @@
   ],
   "totals": {
     "stock": {
-      "qty": 22492.0,
+      "qty": 22489.0,
       "pallets": 118.0,
-      "total_path": 54305011.0,
+      "total_path": 54294729.0,
       "count": 26
     },
     "transit": {
