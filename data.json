@@ -76,12 +76,12 @@
     {
       "sku": "LIM10038-4EN",
       "name": "Моторное масло Mazda \"GOLDEN\" SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1198.0,
+      "qty": 1197.0,
       "per_pallet": 144.0,
       "pallets": 9.0,
       "price_path": 3240.0,
       "price_premium": 3694.0,
-      "total_path": 3881520.0,
+      "total_path": 3878280.0,
       "status": "в наличии в МСК"
     },
     {
@@ -153,34 +153,34 @@
     {
       "sku": "MZ321232",
       "name": "Моторное масло Mitsubishi SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 2126.0,
+      "qty": 2125.0,
       "per_pallet": 162.0,
       "pallets": 14.0,
       "price_path": 2974.0,
       "price_premium": 3391.0,
-      "total_path": 6322724.0,
+      "total_path": 6319750.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "08880-83714",
       "name": "Моторное масло Toyota SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1422.0,
+      "qty": 1418.0,
       "per_pallet": 144.0,
       "pallets": 10.0,
       "price_path": 2501.0,
       "price_premium": 2852.0,
-      "total_path": 3556422.0,
+      "total_path": 3546418.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "90790BS455",
       "name": "Моторное масло YAMALUBE 4Т SJ 10W-40, для 4-такт. лодочных моторов 4 Stroke, (Сингапур), (1л)",
-      "qty": 692.0,
+      "qty": 682.0,
       "per_pallet": 504.0,
       "pallets": 2.0,
       "price_path": 859.0,
       "price_premium": 980.0,
-      "total_path": 594428.0,
+      "total_path": 585838.0,
       "status": "в наличии в МСК"
     },
     {
@@ -230,12 +230,12 @@
     {
       "sku": "MZ320015",
       "name": "Трансмиссионное масло Mitsubishi ATF SP-III, для АКПП и ГУР, (Таиланд), (5л)",
-      "qty": 88.0,
+      "qty": 86.0,
       "per_pallet": 144.0,
       "pallets": 1.0,
       "price_path": 2729.0,
       "price_premium": 3112.0,
-      "total_path": 240152.0,
+      "total_path": 234694.0,
       "status": "в наличии в МСК"
     },
     {
@@ -928,9 +928,9 @@
   ],
   "totals": {
     "stock": {
-      "qty": 22489.0,
+      "qty": 22471.0,
       "pallets": 118.0,
-      "total_path": 54294729.0,
+      "total_path": 54264463.0,
       "count": 26
     },
     "transit": {
