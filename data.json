@@ -3,9 +3,9 @@
     "phone": "89180863874",
     "site": "https://rustrans-logistic.ru/",
     "usd_rate": "86,5857",
-    "usd_date": "05.09.2026"
+    "usd_date": "06.09.2026"
   },
-  "updated": "05.09.2026",
+  "updated": "06.09.2026",
   "stock": [
     {
       "sku": "83122405887",
@@ -153,12 +153,12 @@
     {
       "sku": "MZ321232",
       "name": "Моторное масло Mitsubishi SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 2134.0,
+      "qty": 2127.0,
       "per_pallet": 162.0,
       "pallets": 14.0,
       "price_path": 2974.0,
       "price_premium": 3391.0,
-      "total_path": 6346516.0,
+      "total_path": 6325698.0,
       "status": "в наличии в МСК"
     },
     {
@@ -175,12 +175,12 @@
     {
       "sku": "90790BS455",
       "name": "Моторное масло YAMALUBE 4Т SJ 10W-40, для 4-такт. лодочных моторов 4 Stroke, (Сингапур), (1л)",
-      "qty": 693.0,
+      "qty": 692.0,
       "per_pallet": 504.0,
       "pallets": 2.0,
       "price_path": 859.0,
       "price_premium": 980.0,
-      "total_path": 595287.0,
+      "total_path": 594428.0,
       "status": "в наличии в МСК"
     },
     {
@@ -928,9 +928,9 @@
   ],
   "totals": {
     "stock": {
-      "qty": 22504.0,
+      "qty": 22496.0,
       "pallets": 118.0,
-      "total_path": 54336379.0,
+      "total_path": 54314702.0,
       "count": 26
     },
     "transit": {
