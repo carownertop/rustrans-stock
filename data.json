@@ -2,7 +2,7 @@
   "meta": {
     "phone": "89180863874",
     "site": "https://rustrans-logistic.ru/",
-    "usd_rate": "86,5857",
+    "usd_rate": "86,1909",
     "usd_date": "07.09.2026"
   },
   "updated": "07.09.2026",
@@ -10,12 +10,12 @@
     {
       "sku": "83122405887",
       "name": "Моторное масло BMW Advantec Ultimate SN 5W-40 JASO MA2, (Германия), (1л)",
-      "qty": 288.0,
+      "qty": 0.0,
       "per_pallet": 576.0,
-      "pallets": 1.0,
+      "pallets": 0.0,
       "price_path": 1800.0,
       "price_premium": 2216.0,
-      "total_path": 518400.0,
+      "total_path": 0.0,
       "status": "в наличии в МСК"
     },
     {
@@ -928,9 +928,9 @@
   ],
   "totals": {
     "stock": {
-      "qty": 23002.0,
-      "pallets": 122.0,
-      "total_path": 55659938.0,
+      "qty": 22714.0,
+      "pallets": 121.0,
+      "total_path": 55141538.0,
       "count": 26
     },
     "transit": {
