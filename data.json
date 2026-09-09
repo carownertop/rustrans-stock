@@ -3,9 +3,9 @@
     "phone": "89180863874",
     "site": "https://rustrans-logistic.ru/",
     "usd_rate": "86,473",
-    "usd_date": "08.09.2026"
+    "usd_date": "09.09.2026"
   },
-  "updated": "08.09.2026",
+  "updated": "09.09.2026",
   "stock": [
     {
       "sku": "83215B5BFA4",
@@ -32,23 +32,23 @@
     {
       "sku": "08880-83717",
       "name": "Моторное масло Lexus SN 5W-40 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1779.0,
+      "qty": 1776.0,
       "per_pallet": 144.0,
       "pallets": 13.0,
       "price_path": 2522.0,
       "price_premium": 2876.0,
-      "total_path": 4486638.0,
+      "total_path": 4479072.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "08880-84136",
       "name": "Моторное масло Lexus SP 5W-40 / ILSAC GF-6, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 291.0,
+      "qty": 309.0,
       "per_pallet": 144.0,
       "pallets": 3.0,
       "price_path": 2522.0,
       "price_premium": 2876.0,
-      "total_path": 733902.0,
+      "total_path": 779298.0,
       "status": "в наличии в МСК"
     },
     {
@@ -131,34 +131,34 @@
     {
       "sku": "MZ321232",
       "name": "Моторное масло Mitsubishi SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 2117.0,
+      "qty": 2107.0,
       "per_pallet": 162.0,
       "pallets": 14.0,
       "price_path": 2974.0,
       "price_premium": 3391.0,
-      "total_path": 6295958.0,
+      "total_path": 6266218.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "08880-83714",
       "name": "Моторное масло Toyota SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1397.0,
+      "qty": 1390.0,
       "per_pallet": 144.0,
       "pallets": 10.0,
       "price_path": 2501.0,
       "price_premium": 2852.0,
-      "total_path": 3493897.0,
+      "total_path": 3476390.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "90790BS455",
       "name": "Моторное масло YAMALUBE 4Т SJ 10W-40, для 4-такт. лодочных моторов 4 Stroke, (Сингапур), (1л)",
-      "qty": 634.0,
+      "qty": 609.0,
       "per_pallet": 504.0,
       "pallets": 2.0,
       "price_path": 859.0,
       "price_premium": 980.0,
-      "total_path": 544606.0,
+      "total_path": 523131.0,
       "status": "в наличии в МСК"
     },
     {
@@ -208,12 +208,12 @@
     {
       "sku": "MZ320015",
       "name": "Трансмиссионное масло Mitsubishi ATF SP-III, для АКПП и ГУР, (Таиланд), (5л)",
-      "qty": 84.0,
+      "qty": 83.0,
       "per_pallet": 144.0,
       "pallets": 1.0,
       "price_path": 2729.0,
       "price_premium": 3112.0,
-      "total_path": 229236.0,
+      "total_path": 226507.0,
       "status": "в наличии в МСК"
     },
     {
@@ -906,9 +906,9 @@
   ],
   "totals": {
     "stock": {
-      "qty": 21978.0,
+      "qty": 21950.0,
       "pallets": 115.0,
-      "total_path": 53240488.0,
+      "total_path": 53206867.0,
       "count": 24
     },
     "transit": {
