@@ -3,9 +3,9 @@
     "phone": "89180863874",
     "site": "https://rustrans-logistic.ru/",
     "usd_rate": "84,2569",
-    "usd_date": "12.09.2026"
+    "usd_date": "13.09.2026"
   },
-  "updated": "12.09.2026",
+  "updated": "13.09.2026",
   "stock": [
     {
       "sku": "83215B5BFA4",
@@ -21,12 +21,12 @@
     {
       "sku": "08234P99F4PY1",
       "name": "Моторное масло Honda SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 153.0,
+      "qty": 152.0,
       "per_pallet": 144.0,
       "pallets": 2.0,
       "price_path": 3410.0,
       "price_premium": 3888.0,
-      "total_path": 521730.0,
+      "total_path": 518320.0,
       "status": "в наличии в МСК"
     },
     {
@@ -131,23 +131,23 @@
     {
       "sku": "MZ321232",
       "name": "Моторное масло Mitsubishi SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 2056.0,
+      "qty": 2052.0,
       "per_pallet": 162.0,
       "pallets": 13.0,
       "price_path": 2966.0,
       "price_premium": 3382.0,
-      "total_path": 6098096.0,
+      "total_path": 6086232.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "08880-83714",
       "name": "Моторное масло Toyota SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 775.0,
+      "qty": 773.0,
       "per_pallet": 144.0,
       "pallets": 6.0,
       "price_path": 2494.0,
       "price_premium": 2844.0,
-      "total_path": 1932850.0,
+      "total_path": 1927862.0,
       "status": "в наличии в МСК"
     },
     {
@@ -164,23 +164,23 @@
     {
       "sku": "XT5QMC",
       "name": "Трансмиссионное масло Ford Motorcraft ATF Mercon V, для АКПП / ГУР (красный), (США), (0,946л)",
-      "qty": 780.0,
+      "qty": 774.0,
       "per_pallet": 504.0,
       "pallets": 2.0,
       "price_path": 766.0,
       "price_premium": 874.0,
-      "total_path": 597480.0,
+      "total_path": 592884.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "08269P99Z3FC1",
       "name": "Трансмиссионное масло Honda CVTF TYPE-2 / HCF-2, для вариаторов, (Индонезия), (3,5л)",
-      "qty": 18.0,
+      "qty": 16.0,
       "per_pallet": 144.0,
       "pallets": 1.0,
       "price_path": 6062.0,
       "price_premium": 6911.0,
-      "total_path": 109116.0,
+      "total_path": 96992.0,
       "status": "в наличии в МСК"
     },
     {
@@ -208,34 +208,34 @@
     {
       "sku": "MZ320015",
       "name": "Трансмиссионное масло Mitsubishi ATF SP-III, для АКПП и ГУР, (Таиланд), (5л)",
-      "qty": 74.0,
+      "qty": 69.0,
       "per_pallet": 144.0,
       "pallets": 1.0,
       "price_path": 2721.0,
       "price_premium": 3102.0,
-      "total_path": 201354.0,
+      "total_path": 187749.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "4024610",
       "name": "Трансмиссионное масло Mitsubishi ATF SP-III, для АКПП и ГУР, (Япония), (4л)",
-      "qty": 98.0,
+      "qty": 95.0,
       "per_pallet": 144.0,
       "pallets": 1.0,
       "price_path": 3510.0,
       "price_premium": 4002.0,
-      "total_path": 343980.0,
+      "total_path": 333450.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "KE90799932",
       "name": "Трансмиссионное масло Nissan Differential Fluid 80W-90 / GL-5, для МКПП, (Европа), (1л)",
-      "qty": 233.0,
+      "qty": 231.0,
       "per_pallet": 480.0,
       "pallets": 1.0,
       "price_path": 1742.0,
       "price_premium": 1986.0,
-      "total_path": 405886.0,
+      "total_path": 402402.0,
       "status": "в наличии в МСК"
     },
     {
@@ -252,12 +252,12 @@
     {
       "sku": "08886-02805",
       "name": "Трансмиссионное масло Toyota ATF WS, для АКПП, (Япония), (4л.)",
-      "qty": 802.0,
+      "qty": 795.0,
       "per_pallet": 144.0,
       "pallets": 6.0,
       "price_path": 5158.0,
       "price_premium": 5710.0,
-      "total_path": 4136716.0,
+      "total_path": 4100610.0,
       "status": "в наличии в МСК"
     },
     {
@@ -888,9 +888,9 @@
   ],
   "totals": {
     "stock": {
-      "qty": 21122.0,
+      "qty": 21090.0,
       "pallets": 110.0,
-      "total_path": 51028821.0,
+      "total_path": 50928114.0,
       "count": 24
     },
     "transit": {
