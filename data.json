@@ -21,12 +21,12 @@
     {
       "sku": "08234P99F4PY1",
       "name": "Моторное масло Honda SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 152.0,
+      "qty": 151.0,
       "per_pallet": 144.0,
       "pallets": 2.0,
       "price_path": 3410.0,
       "price_premium": 3888.0,
-      "total_path": 518320.0,
+      "total_path": 514910.0,
       "status": "в наличии в МСК"
     },
     {
@@ -54,12 +54,12 @@
     {
       "sku": "LIM10038-4EN",
       "name": "Моторное масло Mazda \"GOLDEN\" SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1195.0,
+      "qty": 1194.0,
       "per_pallet": 144.0,
       "pallets": 9.0,
       "price_path": 3232.0,
       "price_premium": 3685.0,
-      "total_path": 3862240.0,
+      "total_path": 3859008.0,
       "status": "в наличии в МСК"
     },
     {
@@ -131,34 +131,34 @@
     {
       "sku": "MZ321232",
       "name": "Моторное масло Mitsubishi SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 2052.0,
+      "qty": 2049.0,
       "per_pallet": 162.0,
       "pallets": 13.0,
       "price_path": 2966.0,
       "price_premium": 3382.0,
-      "total_path": 6086232.0,
+      "total_path": 6077334.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "08880-83714",
       "name": "Моторное масло Toyota SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 773.0,
+      "qty": 770.0,
       "per_pallet": 144.0,
       "pallets": 6.0,
       "price_path": 2494.0,
       "price_premium": 2844.0,
-      "total_path": 1927862.0,
+      "total_path": 1920380.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "90790BS455",
       "name": "Моторное масло YAMALUBE 4Т SJ 10W-40, для 4-такт. лодочных моторов 4 Stroke, (Сингапур), (1л)",
-      "qty": 601.0,
+      "qty": 600.0,
       "per_pallet": 504.0,
       "pallets": 2.0,
       "price_path": 856.0,
       "price_premium": 976.0,
-      "total_path": 514456.0,
+      "total_path": 513600.0,
       "status": "в наличии в МСК"
     },
     {
@@ -888,9 +888,9 @@
   ],
   "totals": {
     "stock": {
-      "qty": 21090.0,
+      "qty": 21081.0,
       "pallets": 110.0,
-      "total_path": 50928114.0,
+      "total_path": 50904236.0,
       "count": 24
     },
     "transit": {
