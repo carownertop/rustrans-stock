@@ -2,7 +2,7 @@
   "meta": {
     "phone": "89180863874",
     "site": "https://rustrans-logistic.ru/",
-    "usd_rate": "84,2362",
+    "usd_rate": "84,1732",
     "usd_date": "16.09.2026"
   },
   "updated": "16.09.2026",
@@ -21,23 +21,23 @@
     {
       "sku": "08234P99F4PY1",
       "name": "Моторное масло Honda SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 136.0,
+      "qty": 134.0,
       "per_pallet": 144.0,
       "pallets": 1.0,
       "price_path": 3410.0,
       "price_premium": 3888.0,
-      "total_path": 463760.0,
+      "total_path": 456940.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "08880-83717",
       "name": "Моторное масло Lexus SN 5W-40 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1769.0,
+      "qty": 1768.0,
       "per_pallet": 144.0,
       "pallets": 13.0,
       "price_path": 2514.0,
       "price_premium": 2866.0,
-      "total_path": 4447266.0,
+      "total_path": 4444752.0,
       "status": "в наличии в МСК"
     },
     {
@@ -54,12 +54,12 @@
     {
       "sku": "LIM10038-4EN",
       "name": "Моторное масло Mazda \"GOLDEN\" SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1189.0,
+      "qty": 1188.0,
       "per_pallet": 144.0,
       "pallets": 9.0,
       "price_path": 3231.0,
       "price_premium": 3684.0,
-      "total_path": 3841659.0,
+      "total_path": 3838428.0,
       "status": "в наличии в МСК"
     },
     {
@@ -131,12 +131,12 @@
     {
       "sku": "MZ321232",
       "name": "Моторное масло Mitsubishi SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 2009.0,
+      "qty": 2007.0,
       "per_pallet": 162.0,
       "pallets": 13.0,
       "price_path": 2964.0,
       "price_premium": 3379.0,
-      "total_path": 5954676.0,
+      "total_path": 5948748.0,
       "status": "в наличии в МСК"
     },
     {
@@ -153,23 +153,12 @@
     {
       "sku": "XT5QMC",
       "name": "Трансмиссионное масло Ford Motorcraft ATF Mercon V, для АКПП / ГУР (красный), (США), (0,946л)",
-      "qty": 734.0,
+      "qty": 704.0,
       "per_pallet": 504.0,
       "pallets": 2.0,
       "price_path": 766.0,
       "price_premium": 874.0,
-      "total_path": 562244.0,
-      "status": "в наличии в МСК"
-    },
-    {
-      "sku": "08269P99Z3FC1",
-      "name": "Трансмиссионное масло Honda CVTF TYPE-2 / HCF-2, для вариаторов, (Индонезия), (3,5л)",
-      "qty": 0.0,
-      "per_pallet": 144.0,
-      "pallets": 0.0,
-      "price_path": 6061.0,
-      "price_premium": 6910.0,
-      "total_path": 0.0,
+      "total_path": 539264.0,
       "status": "в наличии в МСК"
     },
     {
@@ -192,17 +181,6 @@
       "price_path": 1635.0,
       "price_premium": 1864.0,
       "total_path": 918870.0,
-      "status": "в наличии в МСК"
-    },
-    {
-      "sku": "MZ320015",
-      "name": "Трансмиссионное масло Mitsubishi ATF SP-III, для АКПП и ГУР, (Таиланд), (5л)",
-      "qty": 56.0,
-      "per_pallet": 144.0,
-      "pallets": 1.0,
-      "price_path": 2720.0,
-      "price_premium": 3101.0,
-      "total_path": 152320.0,
       "status": "в наличии в МСК"
     },
     {
@@ -877,10 +855,10 @@
   ],
   "totals": {
     "stock": {
-      "qty": 18940.0,
-      "pallets": 100.0,
-      "total_path": 46914121.0,
-      "count": 23
+      "qty": 18848.0,
+      "pallets": 99.0,
+      "total_path": 46720328.0,
+      "count": 21
     },
     "transit": {
       "qty": 0.0,
