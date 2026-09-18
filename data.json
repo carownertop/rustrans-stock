@@ -2,7 +2,7 @@
   "meta": {
     "phone": "89180863874",
     "site": "https://rustrans-logistic.ru/",
-    "usd_rate": "84,5093",
+    "usd_rate": "84,1975",
     "usd_date": "18.09.2026"
   },
   "updated": "18.09.2026",
@@ -131,12 +131,12 @@
     {
       "sku": "MZ321232",
       "name": "Моторное масло Mitsubishi SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1978.0,
+      "qty": 1977.0,
       "per_pallet": 162.0,
       "pallets": 13.0,
       "price_path": 2975.0,
       "price_premium": 3392.0,
-      "total_path": 5884550.0,
+      "total_path": 5881575.0,
       "status": "в наличии в МСК"
     },
     {
@@ -153,12 +153,12 @@
     {
       "sku": "XT5QMC",
       "name": "Трансмиссионное масло Ford Motorcraft ATF Mercon V, для АКПП / ГУР (красный), (США), (0,946л)",
-      "qty": 700.0,
+      "qty": 696.0,
       "per_pallet": 504.0,
       "pallets": 2.0,
       "price_path": 768.0,
       "price_premium": 876.0,
-      "total_path": 537600.0,
+      "total_path": 534528.0,
       "status": "в наличии в МСК"
     },
     {
@@ -855,9 +855,9 @@
   ],
   "totals": {
     "stock": {
-      "qty": 18780.0,
+      "qty": 18775.0,
       "pallets": 99.0,
-      "total_path": 46683733.0,
+      "total_path": 46677686.0,
       "count": 21
     },
     "transit": {
