@@ -21,12 +21,12 @@
     {
       "sku": "08234P99F4PY1",
       "name": "Моторное масло Honda SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 131.0,
+      "qty": 130.0,
       "per_pallet": 144.0,
       "pallets": 1.0,
       "price_path": 3408.0,
       "price_premium": 3886.0,
-      "total_path": 446448.0,
+      "total_path": 443040.0,
       "status": "в наличии в МСК"
     },
     {
@@ -131,12 +131,12 @@
     {
       "sku": "MZ321232",
       "name": "Моторное масло Mitsubishi SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1964.0,
+      "qty": 1954.0,
       "per_pallet": 162.0,
       "pallets": 13.0,
       "price_path": 2963.0,
       "price_premium": 3378.0,
-      "total_path": 5819332.0,
+      "total_path": 5789702.0,
       "status": "в наличии в МСК"
     },
     {
@@ -153,12 +153,12 @@
     {
       "sku": "XT5QMC",
       "name": "Трансмиссионное масло Ford Motorcraft ATF Mercon V, для АКПП / ГУР (красный), (США), (0,946л)",
-      "qty": 674.0,
+      "qty": 673.0,
       "per_pallet": 504.0,
       "pallets": 2.0,
       "price_path": 766.0,
       "price_premium": 874.0,
-      "total_path": 516284.0,
+      "total_path": 515518.0,
       "status": "в наличии в МСК"
     },
     {
@@ -855,9 +855,9 @@
   ],
   "totals": {
     "stock": {
-      "qty": 18740.0,
+      "qty": 18728.0,
       "pallets": 99.0,
-      "total_path": 46453163.0,
+      "total_path": 46419359.0,
       "count": 21
     },
     "transit": {
