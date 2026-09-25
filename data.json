@@ -2,7 +2,7 @@
   "meta": {
     "phone": "89180863874",
     "site": "https://rustrans-logistic.ru/",
-    "usd_rate": "84,9057",
+    "usd_rate": "84,3414",
     "usd_date": "25.09.2026"
   },
   "updated": "25.09.2026",
@@ -10,23 +10,23 @@
     {
       "sku": "83215B5BFA4",
       "name": "Моторное масло BMW Twin Power Turbo SN 5W-30 Longlife-04 (C3), (Германия), (1л)",
-      "qty": 5013.0,
+      "qty": 5025.0,
       "per_pallet": 576.0,
       "pallets": 9.0,
       "price_path": 1384.0,
       "price_premium": 1578.0,
-      "total_path": 6937992.0,
+      "total_path": 6954600.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "08234P99F4PY1",
       "name": "Моторное масло Honda SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 99.0,
+      "qty": 98.0,
       "per_pallet": 144.0,
       "pallets": 1.0,
       "price_path": 3436.0,
       "price_premium": 3918.0,
-      "total_path": 340164.0,
+      "total_path": 336728.0,
       "status": "в наличии в МСК"
     },
     {
@@ -131,12 +131,12 @@
     {
       "sku": "MZ321232",
       "name": "Моторное масло Mitsubishi SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1705.0,
+      "qty": 1703.0,
       "per_pallet": 162.0,
       "pallets": 11.0,
       "price_path": 2989.0,
       "price_premium": 3408.0,
-      "total_path": 5096245.0,
+      "total_path": 5090267.0,
       "status": "в наличии в МСК"
     },
     {
@@ -153,12 +153,12 @@
     {
       "sku": "XT5QMC",
       "name": "Трансмиссионное масло Ford Motorcraft ATF Mercon V, для АКПП / ГУР (красный), (США), (0,946л)",
-      "qty": 631.0,
+      "qty": 627.0,
       "per_pallet": 504.0,
       "pallets": 2.0,
       "price_path": 772.0,
       "price_premium": 881.0,
-      "total_path": 487132.0,
+      "total_path": 484044.0,
       "status": "в наличии в МСК"
     },
     {
@@ -855,9 +855,9 @@
   ],
   "totals": {
     "stock": {
-      "qty": 18268.0,
+      "qty": 18273.0,
       "pallets": 96.0,
-      "total_path": 45669073.0,
+      "total_path": 45673179.0,
       "count": 21
     },
     "transit": {
