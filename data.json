@@ -2,7 +2,7 @@
   "meta": {
     "phone": "89180863874",
     "site": "https://rustrans-logistic.ru/",
-    "usd_rate": "84,4075",
+    "usd_rate": "84,4283",
     "usd_date": "29.09.2026"
   },
   "updated": "29.09.2026",
@@ -32,12 +32,12 @@
     {
       "sku": "08880-83717",
       "name": "Моторное масло Lexus SN 5W-40 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1725.0,
+      "qty": 1724.0,
       "per_pallet": 144.0,
       "pallets": 12.0,
       "price_path": 2519.0,
       "price_premium": 2872.0,
-      "total_path": 4345275.0,
+      "total_path": 4342756.0,
       "status": "в наличии в МСК"
     },
     {
@@ -131,12 +131,12 @@
     {
       "sku": "MZ321232",
       "name": "Моторное масло Mitsubishi SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1614.0,
+      "qty": 1613.0,
       "per_pallet": 162.0,
       "pallets": 10.0,
       "price_path": 2970.0,
       "price_premium": 3386.0,
-      "total_path": 4793580.0,
+      "total_path": 4790610.0,
       "status": "в наличии в МСК"
     },
     {
@@ -153,12 +153,12 @@
     {
       "sku": "XT5QMC",
       "name": "Трансмиссионное масло Ford Motorcraft ATF Mercon V, для АКПП / ГУР (красный), (США), (0,946л)",
-      "qty": 602.0,
+      "qty": 599.0,
       "per_pallet": 504.0,
       "pallets": 2.0,
       "price_path": 767.0,
       "price_premium": 875.0,
-      "total_path": 461734.0,
+      "total_path": 459433.0,
       "status": "в наличии в МСК"
     },
     {
@@ -294,7 +294,7 @@
     {
       "sku": "XT5QMC",
       "brand": "Ford",
-      "name": "Трансмиссионное масло Ford Motorcraft ATF Mercon V, для АКПП\r\n/ ГУР (красный), (США), (0,946л)",
+      "name": "Трансмиссионное масло Ford Motorcraft ATF Mercon V, для АКПП / ГУР (красный), (США), (0,946л)",
       "qty": 2.0,
       "price": 700.0,
       "total": 1400.0,
@@ -545,9 +545,9 @@
   ],
   "totals": {
     "stock": {
-      "qty": 18024.0,
+      "qty": 18019.0,
       "pallets": 92.0,
-      "total_path": 44714682.0,
+      "total_path": 44706892.0,
       "count": 21
     },
     "transit": {
