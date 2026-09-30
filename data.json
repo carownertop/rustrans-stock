@@ -3,9 +3,9 @@
     "phone": "89180863874",
     "site": "https://rustrans-logistic.ru/",
     "usd_rate": "84,4283",
-    "usd_date": "29.09.2026"
+    "usd_date": "30.09.2026"
   },
-  "updated": "29.09.2026",
+  "updated": "30.09.2026",
   "stock": [
     {
       "sku": "83215B5BFA4",
@@ -13,20 +13,20 @@
       "qty": 4996.0,
       "per_pallet": 576.0,
       "pallets": 9.0,
-      "price_path": 1376.0,
-      "price_premium": 1569.0,
-      "total_path": 6874496.0,
+      "price_path": 1377.0,
+      "price_premium": 1570.0,
+      "total_path": 6879492.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "08234P99F4PY1",
       "name": "Моторное масло Honda SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 77.0,
+      "qty": 72.0,
       "per_pallet": 144.0,
       "pallets": 1.0,
       "price_path": 3417.0,
       "price_premium": 3896.0,
-      "total_path": 263109.0,
+      "total_path": 246024.0,
       "status": "в наличии в МСК"
     },
     {
@@ -43,23 +43,23 @@
     {
       "sku": "08880-84136",
       "name": "Моторное масло Lexus SP 5W-40 / ILSAC GF-6, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 271.0,
+      "qty": 269.0,
       "per_pallet": 144.0,
       "pallets": 2.0,
       "price_path": 2519.0,
       "price_premium": 2872.0,
-      "total_path": 682649.0,
+      "total_path": 677611.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "LIM10038-4EN",
       "name": "Моторное масло Mazda \"GOLDEN\" SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1167.0,
+      "qty": 1164.0,
       "per_pallet": 144.0,
       "pallets": 9.0,
-      "price_path": 3237.0,
-      "price_premium": 3691.0,
-      "total_path": 3777579.0,
+      "price_path": 3238.0,
+      "price_premium": 3692.0,
+      "total_path": 3769032.0,
       "status": "в наличии в МСК"
     },
     {
@@ -79,9 +79,9 @@
       "qty": 884.0,
       "per_pallet": 96.0,
       "pallets": 10.0,
-      "price_path": 5323.0,
-      "price_premium": 6069.0,
-      "total_path": 4705532.0,
+      "price_path": 5325.0,
+      "price_premium": 6071.0,
+      "total_path": 4707300.0,
       "status": "в наличии в МСК"
     },
     {
@@ -112,9 +112,9 @@
       "qty": 1106.0,
       "per_pallet": 96.0,
       "pallets": 12.0,
-      "price_path": 4943.0,
-      "price_premium": 5636.0,
-      "total_path": 5466958.0,
+      "price_path": 4945.0,
+      "price_premium": 5638.0,
+      "total_path": 5469170.0,
       "status": "в наличии в МСК"
     },
     {
@@ -131,34 +131,34 @@
     {
       "sku": "MZ321232",
       "name": "Моторное масло Mitsubishi SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1613.0,
+      "qty": 1604.0,
       "per_pallet": 162.0,
       "pallets": 10.0,
-      "price_path": 2970.0,
-      "price_premium": 3386.0,
-      "total_path": 4790610.0,
+      "price_path": 2971.0,
+      "price_premium": 3387.0,
+      "total_path": 4765484.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "90790BS455",
       "name": "Моторное масло YAMALUBE 4Т SJ 10W-40, для 4-такт. лодочных моторов 4 Stroke, (Сингапур), (1л)",
-      "qty": 551.0,
+      "qty": 550.0,
       "per_pallet": 504.0,
       "pallets": 2.0,
-      "price_path": 857.0,
-      "price_premium": 977.0,
-      "total_path": 472207.0,
+      "price_path": 858.0,
+      "price_premium": 979.0,
+      "total_path": 471900.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "XT5QMC",
       "name": "Трансмиссионное масло Ford Motorcraft ATF Mercon V, для АКПП / ГУР (красный), (США), (0,946л)",
-      "qty": 599.0,
+      "qty": 584.0,
       "per_pallet": 504.0,
       "pallets": 2.0,
-      "price_path": 767.0,
-      "price_premium": 875.0,
-      "total_path": 459433.0,
+      "price_path": 768.0,
+      "price_premium": 876.0,
+      "total_path": 448512.0,
       "status": "в наличии в МСК"
     },
     {
@@ -167,9 +167,9 @@
       "qty": 204.0,
       "per_pallet": 576.0,
       "pallets": 1.0,
-      "price_path": 1738.0,
-      "price_premium": 1982.0,
-      "total_path": 354552.0,
+      "price_path": 1739.0,
+      "price_premium": 1983.0,
+      "total_path": 354756.0,
       "status": "в наличии в МСК"
     },
     {
@@ -200,9 +200,9 @@
       "qty": 230.0,
       "per_pallet": 480.0,
       "pallets": 1.0,
-      "price_path": 1744.0,
-      "price_premium": 1989.0,
-      "total_path": 401120.0,
+      "price_path": 1745.0,
+      "price_premium": 1990.0,
+      "total_path": 401350.0,
       "status": "в наличии в МСК"
     },
     {
@@ -211,9 +211,9 @@
       "qty": 711.0,
       "per_pallet": 144.0,
       "pallets": 5.0,
-      "price_path": 4288.0,
-      "price_premium": 4889.0,
-      "total_path": 3048768.0,
+      "price_path": 4289.0,
+      "price_premium": 4890.0,
+      "total_path": 3049479.0,
       "status": "в наличии в МСК"
     },
     {
@@ -222,9 +222,9 @@
       "qty": 782.0,
       "per_pallet": 144.0,
       "pallets": 6.0,
-      "price_path": 5167.0,
-      "price_premium": 5720.0,
-      "total_path": 4040594.0,
+      "price_path": 5168.0,
+      "price_premium": 5722.0,
+      "total_path": 4041376.0,
       "status": "в наличии в МСК"
     },
     {
@@ -233,9 +233,9 @@
       "qty": 283.0,
       "per_pallet": 144.0,
       "pallets": 2.0,
-      "price_path": 4692.0,
-      "price_premium": 5349.0,
-      "total_path": 1327836.0,
+      "price_path": 4693.0,
+      "price_premium": 5351.0,
+      "total_path": 1328119.0,
       "status": "в наличии в МСК"
     }
   ],
@@ -296,8 +296,8 @@
       "brand": "Ford",
       "name": "Трансмиссионное масло Ford Motorcraft ATF Mercon V, для АКПП / ГУР (красный), (США), (0,946л)",
       "qty": 2.0,
-      "price": 700.0,
-      "total": 1400.0,
+      "price": 701.0,
+      "total": 1402.0,
       "org": "ИП Трошкина А.Б.",
       "defect": "залепленая информация о товаре"
     },
@@ -326,8 +326,8 @@
       "brand": "Mazda",
       "name": "Моторное масло Mazda \"GOLDEN\" SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
       "qty": 4.0,
-      "price": 2953.0,
-      "total": 11812.0,
+      "price": 2954.0,
+      "total": 11816.0,
       "org": "ИП Трошкина А.Б.",
       "defect": "дефект на крышке"
     },
@@ -336,8 +336,8 @@
       "brand": "Mercedes-Benz",
       "name": "Трансмиссионное масло Mercedes-Benz ATF MB 236.15, (Бельгия), (1л.)",
       "qty": 2.0,
-      "price": 1586.0,
-      "total": 3172.0,
+      "price": 1587.0,
+      "total": 3174.0,
       "org": "ООО \"Рустранс-логистик\"",
       "defect": "отклееная этикетка"
     },
@@ -366,8 +366,8 @@
       "brand": "Mitsubishi",
       "name": "Моторное масло Mitsubishi SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
       "qty": 26.0,
-      "price": 2317.0,
-      "total": 60242.0,
+      "price": 2318.0,
+      "total": 60268.0,
       "org": "ООО \"Рустранс-логистик\"",
       "defect": "некоторые канистры с браком этикеток"
     },
@@ -376,8 +376,8 @@
       "brand": "Mitsubishi",
       "name": "Моторное масло Mitsubishi SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
       "qty": 2.0,
-      "price": 2709.0,
-      "total": 5418.0,
+      "price": 2710.0,
+      "total": 5420.0,
       "org": "ООО \"Рустранс-логистик\"",
       "defect": "дефект на этикетках"
     },
@@ -406,8 +406,8 @@
       "brand": "Nissan",
       "name": "Трансмиссионное масло Nissan ATF Matic D, для АКПП, (Япония), (4л",
       "qty": 4.0,
-      "price": 4243.0,
-      "total": 16972.0,
+      "price": 4244.0,
+      "total": 16976.0,
       "org": "ООО \"Рустранс-логистик\"",
       "defect": "помятая банка"
     },
@@ -416,8 +416,8 @@
       "brand": "Nissan",
       "name": "Трансмиссионное масло Nissan CVT Fluid NS-2, для вариаторов, (Япония), (4л)",
       "qty": 1.0,
-      "price": 4737.0,
-      "total": 4737.0,
+      "price": 4739.0,
+      "total": 4739.0,
       "org": "ИП Трошкина А.Б.",
       "defect": "деформация банки"
     },
@@ -456,8 +456,8 @@
       "brand": "Toyota",
       "name": "Моторное масло Toyota SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
       "qty": 11.0,
-      "price": 2297.0,
-      "total": 25267.0,
+      "price": 2299.0,
+      "total": 25289.0,
       "org": "ИП Трошкина А.Б.",
       "defect": "битые крышки"
     },
@@ -476,8 +476,8 @@
       "brand": "Toyota",
       "name": "Трансмиссионное масло Toyota ATF WS, для АКПП, (Япония), (4л)",
       "qty": 1.0,
-      "price": 4312.0,
-      "total": 4312.0,
+      "price": 4314.0,
+      "total": 4314.0,
       "org": "ИП Трошкина А.Б.",
       "defect": "деформация банки"
     },
@@ -516,8 +516,8 @@
       "brand": "Toyota",
       "name": "Трансмиссионное масло Toyota CVTF FE, для вариаторов, (Таиланд), (4л)",
       "qty": 4.0,
-      "price": 5383.0,
-      "total": 21532.0,
+      "price": 5384.0,
+      "total": 21536.0,
       "org": "ООО \"Рустранс-логистик\"",
       "defect": ""
     },
@@ -545,9 +545,9 @@
   ],
   "totals": {
     "stock": {
-      "qty": 18019.0,
+      "qty": 17984.0,
       "pallets": 92.0,
-      "total_path": 44706892.0,
+      "total_path": 44651054.0,
       "count": 21
     },
     "transit": {
@@ -558,7 +558,7 @@
     },
     "discount": {
       "qty": 151.0,
-      "total": 258899.0,
+      "total": 258969.0,
       "count": 29
     },
     "barrels": {
