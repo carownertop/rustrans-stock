@@ -2,7 +2,7 @@
   "meta": {
     "phone": "89180863874",
     "site": "https://rustrans-logistic.ru/",
-    "usd_rate": "84,4283",
+    "usd_rate": "83,5588",
     "usd_date": "30.09.2026"
   },
   "updated": "30.09.2026",
@@ -153,12 +153,12 @@
     {
       "sku": "XT5QMC",
       "name": "Трансмиссионное масло Ford Motorcraft ATF Mercon V, для АКПП / ГУР (красный), (США), (0,946л)",
-      "qty": 584.0,
+      "qty": 581.0,
       "per_pallet": 504.0,
       "pallets": 2.0,
       "price_path": 768.0,
       "price_premium": 876.0,
-      "total_path": 448512.0,
+      "total_path": 446208.0,
       "status": "в наличии в МСК"
     },
     {
@@ -545,9 +545,9 @@
   ],
   "totals": {
     "stock": {
-      "qty": 17984.0,
+      "qty": 17981.0,
       "pallets": 92.0,
-      "total_path": 44651054.0,
+      "total_path": 44648750.0,
       "count": 21
     },
     "transit": {
