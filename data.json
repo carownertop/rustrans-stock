@@ -2,7 +2,7 @@
   "meta": {
     "phone": "89180863874",
     "site": "https://rustrans-logistic.ru/",
-    "usd_rate": "83,5588",
+    "usd_rate": "83,2454",
     "usd_date": "01.10.2026"
   },
   "updated": "01.10.2026",
@@ -21,12 +21,12 @@
     {
       "sku": "08234P99F4PY1",
       "name": "Моторное масло Honda SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 66.0,
+      "qty": 65.0,
       "per_pallet": 144.0,
       "pallets": 1.0,
       "price_path": 3382.0,
       "price_premium": 3856.0,
-      "total_path": 223212.0,
+      "total_path": 219830.0,
       "status": "в наличии в МСК"
     },
     {
@@ -87,12 +87,12 @@
     {
       "sku": "A000989320911ABDW",
       "name": "Моторное масло Mercedes-Benz 5W-30 / MB 229.51, бензин/дизель, (Бельгия), (1л.)",
-      "qty": 100.0,
+      "qty": 101.0,
       "per_pallet": 576.0,
       "pallets": 1.0,
       "price_path": 1620.0,
       "price_premium": 1847.0,
-      "total_path": 162000.0,
+      "total_path": 163620.0,
       "status": "в наличии в МСК"
     },
     {
@@ -547,7 +547,7 @@
     "stock": {
       "qty": 17981.0,
       "pallets": 92.0,
-      "total_path": 44164591.0,
+      "total_path": 44162829.0,
       "count": 21
     },
     "transit": {
