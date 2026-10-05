@@ -2,64 +2,64 @@
   "meta": {
     "phone": "89180863874",
     "site": "https://rustrans-logistic.ru/",
-    "usd_rate": "83,4839",
-    "usd_date": "04.10.2026"
+    "usd_rate": "84,9309",
+    "usd_date": "05.10.2026"
   },
-  "updated": "04.10.2026",
+  "updated": "05.10.2026",
   "stock": [
     {
       "sku": "83215B5BFA4",
       "name": "Моторное масло BMW Twin Power Turbo SN 5W-30 Longlife-04 (C3), (Германия), (1л)",
-      "qty": 5020.0,
+      "qty": 5008.0,
       "per_pallet": 576.0,
       "pallets": 9.0,
       "price_path": 1358.0,
       "price_premium": 1549.0,
-      "total_path": 6817160.0,
+      "total_path": 6800864.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "08234P99F4PY1",
       "name": "Моторное масло Honda SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 63.0,
+      "qty": 59.0,
       "per_pallet": 144.0,
       "pallets": 1.0,
       "price_path": 3369.0,
       "price_premium": 3841.0,
-      "total_path": 212247.0,
+      "total_path": 198771.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "08880-83717",
       "name": "Моторное масло Lexus SN 5W-40 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1719.0,
+      "qty": 1714.0,
       "per_pallet": 144.0,
       "pallets": 12.0,
       "price_path": 2484.0,
       "price_premium": 2832.0,
-      "total_path": 4269996.0,
+      "total_path": 4257576.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "08880-84136",
       "name": "Моторное масло Lexus SP 5W-40 / ILSAC GF-6, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 268.0,
+      "qty": 267.0,
       "per_pallet": 144.0,
       "pallets": 2.0,
       "price_path": 2484.0,
       "price_premium": 2832.0,
-      "total_path": 665712.0,
+      "total_path": 663228.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "LIM10038-4EN",
       "name": "Моторное масло Mazda \"GOLDEN\" SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1155.0,
+      "qty": 1142.0,
       "per_pallet": 144.0,
-      "pallets": 9.0,
+      "pallets": 8.0,
       "price_path": 3193.0,
       "price_premium": 3641.0,
-      "total_path": 3687915.0,
+      "total_path": 3646406.0,
       "status": "в наличии в МСК"
     },
     {
@@ -98,23 +98,23 @@
     {
       "sku": "A000989671011FBDW",
       "name": "Моторное масло Mercedes-Benz 5W-30 / MB 229.52, (Германия), (1л)",
-      "qty": 282.0,
+      "qty": 270.0,
       "per_pallet": 576.0,
       "pallets": 1.0,
       "price_path": 1188.0,
       "price_premium": 1355.0,
-      "total_path": 335016.0,
+      "total_path": 320760.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "A000989681013FSEW",
       "name": "Моторное масло Mercedes-Benz 5W-40 / MB 229.5 (Германия), (5л)",
-      "qty": 1046.0,
+      "qty": 1042.0,
       "per_pallet": 96.0,
       "pallets": 11.0,
       "price_path": 4876.0,
       "price_premium": 5559.0,
-      "total_path": 5100296.0,
+      "total_path": 5080792.0,
       "status": "в наличии в МСК"
     },
     {
@@ -131,45 +131,45 @@
     {
       "sku": "MZ321232",
       "name": "Моторное масло Mitsubishi SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1369.0,
+      "qty": 1329.0,
       "per_pallet": 162.0,
       "pallets": 9.0,
       "price_path": 2930.0,
       "price_premium": 3341.0,
-      "total_path": 4011170.0,
+      "total_path": 3893970.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "90790BS455",
       "name": "Моторное масло YAMALUBE 4Т SJ 10W-40, для 4-такт. лодочных моторов 4 Stroke, (Сингапур), (1л)",
-      "qty": 549.0,
+      "qty": 542.0,
       "per_pallet": 504.0,
       "pallets": 2.0,
       "price_path": 845.0,
       "price_premium": 964.0,
-      "total_path": 463905.0,
+      "total_path": 457990.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "XT5QMC",
       "name": "Трансмиссионное масло Ford Motorcraft ATF Mercon V, для АКПП / ГУР (красный), (США), (0,946л)",
-      "qty": 557.0,
+      "qty": 558.0,
       "per_pallet": 504.0,
       "pallets": 2.0,
       "price_path": 757.0,
       "price_premium": 863.0,
-      "total_path": 421649.0,
+      "total_path": 422406.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "A000989440411FULW",
       "name": "Трансмиссионное масло Mercedes-Benz ATF MB 236.15, (Бельгия), (1л.)",
-      "qty": 204.0,
+      "qty": 203.0,
       "per_pallet": 576.0,
       "pallets": 1.0,
       "price_path": 1715.0,
       "price_premium": 1956.0,
-      "total_path": 349860.0,
+      "total_path": 348145.0,
       "status": "в наличии в МСК"
     },
     {
@@ -545,9 +545,9 @@
   ],
   "totals": {
     "stock": {
-      "qty": 17585.0,
-      "pallets": 89.0,
-      "total_path": 42837468.0,
+      "qty": 17487.0,
+      "pallets": 88.0,
+      "total_path": 42593450.0,
       "count": 21
     },
     "transit": {
