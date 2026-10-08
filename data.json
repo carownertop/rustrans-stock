@@ -2,7 +2,7 @@
   "meta": {
     "phone": "89180863874",
     "site": "https://rustrans-logistic.ru/",
-    "usd_rate": "85,4811",
+    "usd_rate": "85,4173",
     "usd_date": "08.10.2026"
   },
   "updated": "08.10.2026",
@@ -10,12 +10,12 @@
     {
       "sku": "83215B5BFA4",
       "name": "Моторное масло BMW Twin Power Turbo SN 5W-30 Longlife-04 (C3), (Германия), (1л)",
-      "qty": 5018.0,
+      "qty": 4718.0,
       "per_pallet": 576.0,
       "pallets": 9.0,
       "price_path": 1394.0,
       "price_premium": 1590.0,
-      "total_path": 6995092.0,
+      "total_path": 6576892.0,
       "status": "в наличии в МСК"
     },
     {
@@ -545,9 +545,9 @@
   ],
   "totals": {
     "stock": {
-      "qty": 17213.0,
+      "qty": 16913.0,
       "pallets": 87.0,
-      "total_path": 42790268.0,
+      "total_path": 42372068.0,
       "count": 21
     },
     "transit": {
