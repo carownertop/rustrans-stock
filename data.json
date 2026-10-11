@@ -32,12 +32,12 @@
     {
       "sku": "08880-83717",
       "name": "Моторное масло Lexus SN 5W-40 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1704.0,
+      "qty": 1702.0,
       "per_pallet": 144.0,
       "pallets": 12.0,
       "price_path": 2491.0,
       "price_premium": 2758.0,
-      "total_path": 4244664.0,
+      "total_path": 4239682.0,
       "status": "в наличии в МСК"
     },
     {
@@ -131,12 +131,12 @@
     {
       "sku": "MZ321232",
       "name": "Моторное масло Mitsubishi SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1300.0,
+      "qty": 1299.0,
       "per_pallet": 162.0,
       "pallets": 9.0,
       "price_path": 2963.0,
       "price_premium": 3378.0,
-      "total_path": 3851900.0,
+      "total_path": 3848937.0,
       "status": "в наличии в МСК"
     },
     {
@@ -545,9 +545,9 @@
   ],
   "totals": {
     "stock": {
-      "qty": 16868.0,
+      "qty": 16865.0,
       "pallets": 87.0,
-      "total_path": 41956998.0,
+      "total_path": 41949053.0,
       "count": 21
     },
     "transit": {
