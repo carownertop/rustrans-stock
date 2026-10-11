@@ -3,9 +3,9 @@
     "phone": "89180863874",
     "site": "https://rustrans-logistic.ru/",
     "usd_rate": "84,9048",
-    "usd_date": "10.10.2026"
+    "usd_date": "11.10.2026"
   },
-  "updated": "10.10.2026",
+  "updated": "11.10.2026",
   "stock": [
     {
       "sku": "83215B5BFA4",
@@ -21,23 +21,23 @@
     {
       "sku": "08234P99F4PY1",
       "name": "Моторное масло Honda SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 50.0,
+      "qty": 48.0,
       "per_pallet": 144.0,
       "pallets": 1.0,
       "price_path": 3436.0,
       "price_premium": 3918.0,
-      "total_path": 171800.0,
+      "total_path": 164928.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "08880-83717",
       "name": "Моторное масло Lexus SN 5W-40 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1705.0,
+      "qty": 1704.0,
       "per_pallet": 144.0,
       "pallets": 12.0,
       "price_path": 2491.0,
       "price_premium": 2758.0,
-      "total_path": 4247155.0,
+      "total_path": 4244664.0,
       "status": "в наличии в МСК"
     },
     {
@@ -54,12 +54,12 @@
     {
       "sku": "LIM10038-4EN",
       "name": "Моторное масло Mazda \"GOLDEN\" SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1136.0,
+      "qty": 1133.0,
       "per_pallet": 144.0,
       "pallets": 8.0,
       "price_path": 3257.0,
       "price_premium": 3713.0,
-      "total_path": 3699952.0,
+      "total_path": 3690181.0,
       "status": "в наличии в МСК"
     },
     {
@@ -131,34 +131,34 @@
     {
       "sku": "MZ321232",
       "name": "Моторное масло Mitsubishi SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1306.0,
+      "qty": 1300.0,
       "per_pallet": 162.0,
       "pallets": 9.0,
       "price_path": 2963.0,
       "price_premium": 3378.0,
-      "total_path": 3869678.0,
+      "total_path": 3851900.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "90790BS455",
       "name": "Моторное масло YAMALUBE 4Т SJ 10W-40, для 4-такт. лодочных моторов 4 Stroke, (Сингапур), (1л)",
-      "qty": 297.0,
+      "qty": 296.0,
       "per_pallet": 504.0,
       "pallets": 1.0,
       "price_path": 862.0,
       "price_premium": 983.0,
-      "total_path": 256014.0,
+      "total_path": 255152.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "XT5QMC",
       "name": "Трансмиссионное масло Ford Motorcraft ATF Mercon V, для АКПП / ГУР (красный), (США), (0,946л)",
-      "qty": 550.0,
+      "qty": 551.0,
       "per_pallet": 504.0,
       "pallets": 2.0,
       "price_path": 772.0,
       "price_premium": 881.0,
-      "total_path": 424600.0,
+      "total_path": 425372.0,
       "status": "в наличии в МСК"
     },
     {
@@ -545,9 +545,9 @@
   ],
   "totals": {
     "stock": {
-      "qty": 16880.0,
+      "qty": 16868.0,
       "pallets": 87.0,
-      "total_path": 41994000.0,
+      "total_path": 41956998.0,
       "count": 21
     },
     "transit": {
