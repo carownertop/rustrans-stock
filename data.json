@@ -2,10 +2,10 @@
   "meta": {
     "phone": "89180863874",
     "site": "https://rustrans-logistic.ru/",
-    "usd_rate": "84,9048",
-    "usd_date": "11.10.2026"
+    "usd_rate": "83,9153",
+    "usd_date": "12.10.2026"
   },
-  "updated": "11.10.2026",
+  "updated": "12.10.2026",
   "stock": [
     {
       "sku": "83215B5BFA4",
@@ -32,34 +32,34 @@
     {
       "sku": "08880-83717",
       "name": "Моторное масло Lexus SN 5W-40 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1702.0,
+      "qty": 1700.0,
       "per_pallet": 144.0,
       "pallets": 12.0,
       "price_path": 2491.0,
       "price_premium": 2758.0,
-      "total_path": 4239682.0,
+      "total_path": 4234700.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "08880-84136",
       "name": "Моторное масло Lexus SP 5W-40 / ILSAC GF-6, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 258.0,
+      "qty": 257.0,
       "per_pallet": 144.0,
       "pallets": 2.0,
       "price_path": 2533.0,
       "price_premium": 2888.0,
-      "total_path": 653514.0,
+      "total_path": 650981.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "LIM10038-4EN",
       "name": "Моторное масло Mazda \"GOLDEN\" SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1133.0,
+      "qty": 1132.0,
       "per_pallet": 144.0,
       "pallets": 8.0,
       "price_path": 3257.0,
       "price_premium": 3713.0,
-      "total_path": 3690181.0,
+      "total_path": 3686924.0,
       "status": "в наличии в МСК"
     },
     {
@@ -131,23 +131,23 @@
     {
       "sku": "MZ321232",
       "name": "Моторное масло Mitsubishi SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1299.0,
+      "qty": 1291.0,
       "per_pallet": 162.0,
-      "pallets": 9.0,
+      "pallets": 8.0,
       "price_path": 2963.0,
       "price_premium": 3378.0,
-      "total_path": 3848937.0,
+      "total_path": 3825233.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "90790BS455",
       "name": "Моторное масло YAMALUBE 4Т SJ 10W-40, для 4-такт. лодочных моторов 4 Stroke, (Сингапур), (1л)",
-      "qty": 296.0,
+      "qty": 292.0,
       "per_pallet": 504.0,
       "pallets": 1.0,
       "price_path": 862.0,
       "price_premium": 983.0,
-      "total_path": 255152.0,
+      "total_path": 251704.0,
       "status": "в наличии в МСК"
     },
     {
@@ -208,12 +208,12 @@
     {
       "sku": "08886-81885",
       "name": "Трансмиссионное масло Toyota ATF WS, для АКПП, (Таиланд), (4л)",
-      "qty": 707.0,
+      "qty": 703.0,
       "per_pallet": 144.0,
       "pallets": 5.0,
       "price_path": 4241.0,
       "price_premium": 4695.0,
-      "total_path": 2998387.0,
+      "total_path": 2981423.0,
       "status": "в наличии в МСК"
     },
     {
@@ -246,8 +246,8 @@
       "brand": "BMW",
       "name": "Моторное масло Shell Helix Ultra X SP 5W-30 (A3/B4), BMW LL-01, MB 229.5/226.5, (Оман), (4л)",
       "qty": 1.0,
-      "price": 2636.0,
-      "total": 2636.0,
+      "price": 2746.0,
+      "total": 2746.0,
       "org": "ИП Трошкина А.Б.",
       "defect": "видимых дефектов нет"
     },
@@ -426,8 +426,8 @@
       "brand": "Shell",
       "name": "Моторное масло Shell Helix HX8 X SP 5W-30 (A3/B4), MB 229.5, (Оман), (1л)",
       "qty": 3.0,
-      "price": 466.0,
-      "total": 1398.0,
+      "price": 485.0,
+      "total": 1455.0,
       "org": "ООО \"Рустранс-логистик\"",
       "defect": "дефект на канистре"
     },
@@ -436,8 +436,8 @@
       "brand": "Shell",
       "name": "Моторное масло Shell Helix HX8 X SP 5W-30 (A3/B4), MB 229.5, (Оман), (4л)",
       "qty": 2.0,
-      "price": 1787.0,
-      "total": 3574.0,
+      "price": 1861.0,
+      "total": 3722.0,
       "org": "ООО \"Рустранс-логистик\"",
       "defect": "дефект на канистре, немного пробита крышка"
     },
@@ -446,8 +446,8 @@
       "brand": "Shell",
       "name": "Моторное масло Shell Helix HX8 SP 5W-40 (A3/B4), MB 229.3, (Оман), (5л)",
       "qty": 2.0,
-      "price": 1760.0,
-      "total": 3520.0,
+      "price": 1833.0,
+      "total": 3666.0,
       "org": "ООО \"Рустранс-логистик\"",
       "defect": "дефект на канистре"
     },
@@ -545,9 +545,9 @@
   ],
   "totals": {
     "stock": {
-      "qty": 16865.0,
-      "pallets": 87.0,
-      "total_path": 41949053.0,
+      "qty": 16845.0,
+      "pallets": 86.0,
+      "total_path": 41894165.0,
       "count": 21
     },
     "transit": {
@@ -558,7 +558,7 @@
     },
     "discount": {
       "qty": 151.0,
-      "total": 260109.0,
+      "total": 260570.0,
       "count": 29
     },
     "barrels": {
