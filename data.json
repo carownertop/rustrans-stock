@@ -2,7 +2,7 @@
   "meta": {
     "phone": "89180863874",
     "site": "https://rustrans-logistic.ru/",
-    "usd_rate": "83,9497",
+    "usd_rate": "83,76",
     "usd_date": "15.10.2026"
   },
   "updated": "15.10.2026",
@@ -10,12 +10,12 @@
     {
       "sku": "83215B5BFA4",
       "name": "Моторное масло BMW Twin Power Turbo SN 5W-30 Longlife-04 (C3), (Германия), (1л)",
-      "qty": 4647.0,
+      "qty": 4587.0,
       "per_pallet": 576.0,
-      "pallets": 9.0,
+      "pallets": 8.0,
       "price_path": 1369.0,
       "price_premium": 1561.0,
-      "total_path": 6361743.0,
+      "total_path": 6279603.0,
       "status": "в наличии в МСК"
     },
     {
@@ -32,12 +32,12 @@
     {
       "sku": "08880-83717",
       "name": "Моторное масло Lexus SN 5W-40 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1700.0,
+      "qty": 1699.0,
       "per_pallet": 144.0,
       "pallets": 12.0,
       "price_path": 2463.0,
       "price_premium": 2727.0,
-      "total_path": 4187100.0,
+      "total_path": 4184637.0,
       "status": "в наличии в МСК"
     },
     {
@@ -109,12 +109,12 @@
     {
       "sku": "A000989681013FSEW",
       "name": "Моторное масло Mercedes-Benz 5W-40 / MB 229.5 (Германия), (5л)",
-      "qty": 1042.0,
+      "qty": 1041.0,
       "per_pallet": 96.0,
       "pallets": 11.0,
       "price_path": 4757.0,
       "price_premium": 5267.0,
-      "total_path": 4956794.0,
+      "total_path": 4952037.0,
       "status": "в наличии в МСК"
     },
     {
@@ -131,23 +131,23 @@
     {
       "sku": "MZ321232",
       "name": "Моторное масло Mitsubishi SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1282.0,
+      "qty": 1279.0,
       "per_pallet": 162.0,
       "pallets": 8.0,
       "price_path": 2928.0,
       "price_premium": 3338.0,
-      "total_path": 3753696.0,
+      "total_path": 3744912.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "90790BS455",
       "name": "Моторное масло YAMALUBE 4Т SJ 10W-40, для 4-такт. лодочных моторов 4 Stroke, (Сингапур), (1л)",
-      "qty": 277.0,
+      "qty": 276.0,
       "per_pallet": 504.0,
       "pallets": 1.0,
       "price_path": 853.0,
       "price_premium": 973.0,
-      "total_path": 236281.0,
+      "total_path": 235428.0,
       "status": "в наличии в МСК"
     },
     {
@@ -545,9 +545,9 @@
   ],
   "totals": {
     "stock": {
-      "qty": 16465.0,
-      "pallets": 85.0,
-      "total_path": 40291799.0,
+      "qty": 16399.0,
+      "pallets": 84.0,
+      "total_path": 40192802.0,
       "count": 21
     },
     "transit": {
