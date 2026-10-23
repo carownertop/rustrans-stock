@@ -2,7 +2,7 @@
   "meta": {
     "phone": "89180863874",
     "site": "https://rustrans-logistic.ru/",
-    "usd_rate": "81,1255",
+    "usd_rate": "80,5381",
     "usd_date": "23.10.2026"
   },
   "updated": "23.10.2026",
@@ -21,12 +21,12 @@
     {
       "sku": "08234P99F4PY1",
       "name": "Моторное масло Honda SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 39.0,
+      "qty": 37.0,
       "per_pallet": 144.0,
       "pallets": 1.0,
       "price_path": 3284.0,
       "price_premium": 3744.0,
-      "total_path": 128076.0,
+      "total_path": 121508.0,
       "status": "в наличии в МСК"
     },
     {
@@ -131,12 +131,12 @@
     {
       "sku": "MZ321232",
       "name": "Моторное масло Mitsubishi SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1258.0,
+      "qty": 1252.0,
       "per_pallet": 162.0,
       "pallets": 8.0,
       "price_path": 2831.0,
       "price_premium": 3228.0,
-      "total_path": 3561398.0,
+      "total_path": 3544412.0,
       "status": "в наличии в МСК"
     },
     {
@@ -153,12 +153,12 @@
     {
       "sku": "XT5QMC",
       "name": "Трансмиссионное масло Ford Motorcraft ATF Mercon V, для АКПП / ГУР (красный), (США), (0,946л)",
-      "qty": 525.0,
+      "qty": 524.0,
       "per_pallet": 504.0,
       "pallets": 2.0,
       "price_path": 738.0,
       "price_premium": 842.0,
-      "total_path": 387450.0,
+      "total_path": 386712.0,
       "status": "в наличии в МСК"
     },
     {
@@ -175,12 +175,12 @@
     {
       "sku": "A000989440411FDNE",
       "name": "Трансмиссионное масло Mercedes-Benz ATF MB 236.15, A000989440411FDNE, (1л)",
-      "qty": 562.0,
+      "qty": 552.0,
       "per_pallet": 576.0,
       "pallets": 1.0,
       "price_path": 1575.0,
       "price_premium": 1796.0,
-      "total_path": 885150.0,
+      "total_path": 869400.0,
       "status": "в наличии в МСК"
     },
     {
@@ -208,12 +208,12 @@
     {
       "sku": "08886-81885",
       "name": "Трансмиссионное масло Toyota ATF WS, для АКПП, (Таиланд), (4л)",
-      "qty": 4.0,
+      "qty": 0.0,
       "per_pallet": 144.0,
-      "pallets": 1.0,
+      "pallets": 0.0,
       "price_path": 4053.0,
       "price_premium": 4487.0,
-      "total_path": 16212.0,
+      "total_path": 0.0,
       "status": "в наличии в МСК"
     },
     {
@@ -545,9 +545,9 @@
   ],
   "totals": {
     "stock": {
-      "qty": 15675.0,
-      "pallets": 82.0,
-      "total_path": 36465318.0,
+      "qty": 15652.0,
+      "pallets": 81.0,
+      "total_path": 36409064.0,
       "count": 21
     },
     "transit": {
