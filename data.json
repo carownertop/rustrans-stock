@@ -3,9 +3,9 @@
     "phone": "89180863874",
     "site": "https://rustrans-logistic.ru/",
     "usd_rate": "80,5381",
-    "usd_date": "24.10.2026"
+    "usd_date": "25.10.2026"
   },
-  "updated": "24.10.2026",
+  "updated": "25.10.2026",
   "stock": [
     {
       "sku": "83215B5BFA4",
@@ -21,12 +21,12 @@
     {
       "sku": "08234P99F4PY1",
       "name": "Моторное масло Honda SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 36.0,
+      "qty": 32.0,
       "per_pallet": 144.0,
       "pallets": 1.0,
       "price_path": 3260.0,
       "price_premium": 3717.0,
-      "total_path": 117360.0,
+      "total_path": 104320.0,
       "status": "в наличии в МСК"
     },
     {
@@ -54,12 +54,12 @@
     {
       "sku": "LIM10038-4EN",
       "name": "Моторное масло Mazda \"GOLDEN\" SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1111.0,
+      "qty": 1110.0,
       "per_pallet": 144.0,
       "pallets": 8.0,
       "price_path": 3089.0,
       "price_premium": 3522.0,
-      "total_path": 3431879.0,
+      "total_path": 3428790.0,
       "status": "в наличии в МСК"
     },
     {
@@ -142,12 +142,12 @@
     {
       "sku": "90790BS455",
       "name": "Моторное масло YAMALUBE 4Т SJ 10W-40, для 4-такт. лодочных моторов 4 Stroke, (Сингапур), (1л)",
-      "qty": 243.0,
+      "qty": 242.0,
       "per_pallet": 504.0,
       "pallets": 1.0,
       "price_path": 818.0,
       "price_premium": 933.0,
-      "total_path": 198774.0,
+      "total_path": 197956.0,
       "status": "в наличии в МСК"
     },
     {
@@ -545,9 +545,9 @@
   ],
   "totals": {
     "stock": {
-      "qty": 15637.0,
+      "qty": 15631.0,
       "pallets": 81.0,
-      "total_path": 36099483.0,
+      "total_path": 36082536.0,
       "count": 21
     },
     "transit": {
