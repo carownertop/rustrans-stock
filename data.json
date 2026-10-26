@@ -3,9 +3,9 @@
     "phone": "89180863874",
     "site": "https://rustrans-logistic.ru/",
     "usd_rate": "80,5381",
-    "usd_date": "25.10.2026"
+    "usd_date": "26.10.2026"
   },
-  "updated": "25.10.2026",
+  "updated": "26.10.2026",
   "stock": [
     {
       "sku": "83215B5BFA4",
@@ -21,23 +21,23 @@
     {
       "sku": "08234P99F4PY1",
       "name": "Моторное масло Honda SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 30.0,
+      "qty": 31.0,
       "per_pallet": 144.0,
       "pallets": 1.0,
       "price_path": 3260.0,
       "price_premium": 3717.0,
-      "total_path": 97800.0,
+      "total_path": 101060.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "08880-83717",
       "name": "Моторное масло Lexus SN 5W-40 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1691.0,
+      "qty": 1685.0,
       "per_pallet": 144.0,
       "pallets": 12.0,
       "price_path": 2363.0,
       "price_premium": 2616.0,
-      "total_path": 3995833.0,
+      "total_path": 3981655.0,
       "status": "в наличии в МСК"
     },
     {
@@ -131,12 +131,12 @@
     {
       "sku": "MZ321232",
       "name": "Моторное масло Mitsubishi SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1248.0,
+      "qty": 1245.0,
       "per_pallet": 162.0,
       "pallets": 8.0,
       "price_path": 2810.0,
       "price_premium": 3204.0,
-      "total_path": 3506880.0,
+      "total_path": 3498450.0,
       "status": "в наличии в МСК"
     },
     {
@@ -208,12 +208,12 @@
     {
       "sku": "08886-81885",
       "name": "Трансмиссионное масло Toyota ATF WS, для АКПП, (Таиланд), (4л)",
-      "qty": 0.0,
+      "qty": 1.0,
       "per_pallet": 144.0,
-      "pallets": 0.0,
+      "pallets": 1.0,
       "price_path": 4023.0,
       "price_premium": 4454.0,
-      "total_path": 0.0,
+      "total_path": 4023.0,
       "status": "в наличии в МСК"
     },
     {
@@ -239,7 +239,107 @@
       "status": "в наличии в МСК"
     }
   ],
-  "transit": [],
+  "transit": [
+    {
+      "sku": "83122405887",
+      "name": "Моторное масло BMW Advantec Ultimate SN 5W-40 JASO MA2, (Германия), (1л)",
+      "qty": 300.0,
+      "per_pallet": 576.0,
+      "pallets": 1.0,
+      "price_path": 1777.0,
+      "price_premium": 2026.0,
+      "total_path": 533100.0,
+      "eta": "07.11.2026"
+    },
+    {
+      "sku": "08234P99F4PY1",
+      "name": "Моторное масло Honda SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
+      "qty": 1008.0,
+      "per_pallet": 144.0,
+      "pallets": 7.0,
+      "price_path": 2987.0,
+      "price_premium": 3405.0,
+      "total_path": 3010896.0,
+      "eta": "07.11.2026"
+    },
+    {
+      "sku": "MZ321233",
+      "name": "Моторное масло Mitsubishi SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (1л)",
+      "qty": 720.0,
+      "per_pallet": 720.0,
+      "pallets": 1.0,
+      "price_path": 810.0,
+      "price_premium": 923.0,
+      "total_path": 583200.0,
+      "eta": "07.11.2026"
+    },
+    {
+      "sku": "MZ321232",
+      "name": "Моторное масло Mitsubishi SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
+      "qty": 2001.0,
+      "per_pallet": 162.0,
+      "pallets": 13.0,
+      "price_path": 2629.0,
+      "price_premium": 2997.0,
+      "total_path": 5260629.0,
+      "eta": "07.11.2026"
+    },
+    {
+      "sku": "KLAPE05304",
+      "name": "Моторное масло Nissan SP 5W-30 / ILSAC GF-6, KLAPE05304, для бенз. двигателей, (Дубай), (4л)",
+      "qty": 187.0,
+      "per_pallet": 144.0,
+      "pallets": 2.0,
+      "price_path": 3586.0,
+      "price_premium": 4088.0,
+      "total_path": 670582.0,
+      "eta": "07.11.2026"
+    },
+    {
+      "sku": "08880-84355",
+      "name": "Моторное масло Toyota SP 0W-20 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
+      "qty": 288.0,
+      "per_pallet": 144.0,
+      "pallets": 2.0,
+      "price_path": 3391.0,
+      "price_premium": 3391.0,
+      "total_path": 976608.0,
+      "eta": "07.11.2026"
+    },
+    {
+      "sku": "08880-84132",
+      "name": "Моторное масло Toyota SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
+      "qty": 1584.0,
+      "per_pallet": 144.0,
+      "pallets": 11.0,
+      "price_path": 2735.0,
+      "price_premium": 3118.0,
+      "total_path": 4332240.0,
+      "eta": "07.11.2026"
+    },
+    {
+      "sku": "MZ320265",
+      "name": "Трансмиссионное масло Mitsubishi Multi Gear Oil Eco 75W-80 / GL-4, для МКПП, (Таиланд), (1л)",
+      "qty": 456.0,
+      "per_pallet": 720.0,
+      "pallets": 1.0,
+      "price_path": 1473.0,
+      "price_premium": 1679.0,
+      "total_path": 671688.0,
+      "eta": "07.11.2026"
+    },
+    {
+      "sku": "08886-81895",
+      "name": "Трансмиссионное масло Toyota ATF Type T-IV, для АКПП (Таиланд), (4л)",
+      "qty": 136.0,
+      "per_pallet": 144.0,
+      "pallets": 1.0,
+      "price_path": 4071.0,
+      "price_premium": 4641.0,
+      "total_path": 553656.0,
+      "eta": "07.11.2026"
+    }
+  ],
   "discount": [
     {
       "sku": "550061560",
@@ -545,16 +645,16 @@
   ],
   "totals": {
     "stock": {
-      "qty": 15625.0,
-      "pallets": 81.0,
-      "total_path": 36066223.0,
+      "qty": 15618.0,
+      "pallets": 82.0,
+      "total_path": 36050898.0,
       "count": 21
     },
     "transit": {
-      "qty": 0.0,
-      "pallets": 0.0,
-      "total_path": 0.0,
-      "count": 0
+      "qty": 6680.0,
+      "pallets": 39.0,
+      "total_path": 16592599.0,
+      "count": 9
     },
     "discount": {
       "qty": 151.0,
