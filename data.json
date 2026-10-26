@@ -2,7 +2,7 @@
   "meta": {
     "phone": "89180863874",
     "site": "https://rustrans-logistic.ru/",
-    "usd_rate": "80,5381",
+    "usd_rate": "80,4909",
     "usd_date": "26.10.2026"
   },
   "updated": "26.10.2026",
@@ -10,34 +10,34 @@
     {
       "sku": "83215B5BFA4",
       "name": "Моторное масло BMW Twin Power Turbo SN 5W-30 Longlife-04 (C3), (Германия), (1л)",
-      "qty": 4611.0,
+      "qty": 4599.0,
       "per_pallet": 576.0,
-      "pallets": 9.0,
+      "pallets": 8.0,
       "price_path": 1313.0,
       "price_premium": 1497.0,
-      "total_path": 6054243.0,
+      "total_path": 6038487.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "08234P99F4PY1",
       "name": "Моторное масло Honda SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 31.0,
+      "qty": 30.0,
       "per_pallet": 144.0,
       "pallets": 1.0,
       "price_path": 3260.0,
       "price_premium": 3717.0,
-      "total_path": 101060.0,
+      "total_path": 97800.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "08880-83717",
       "name": "Моторное масло Lexus SN 5W-40 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1685.0,
+      "qty": 1175.0,
       "per_pallet": 144.0,
-      "pallets": 12.0,
+      "pallets": 9.0,
       "price_path": 2363.0,
       "price_premium": 2616.0,
-      "total_path": 3981655.0,
+      "total_path": 2776525.0,
       "status": "в наличии в МСК"
     },
     {
@@ -54,12 +54,12 @@
     {
       "sku": "LIM10038-4EN",
       "name": "Моторное масло Mazda \"GOLDEN\" SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1110.0,
+      "qty": 1109.0,
       "per_pallet": 144.0,
       "pallets": 8.0,
       "price_path": 3089.0,
       "price_premium": 3522.0,
-      "total_path": 3428790.0,
+      "total_path": 3425701.0,
       "status": "в наличии в МСК"
     },
     {
@@ -98,45 +98,45 @@
     {
       "sku": "A000989671011FBDW",
       "name": "Моторное масло Mercedes-Benz 5W-30 / MB 229.52, (Германия), (1л)",
-      "qty": 102.0,
+      "qty": 90.0,
       "per_pallet": 576.0,
       "pallets": 1.0,
       "price_path": 1150.0,
       "price_premium": 1311.0,
-      "total_path": 117300.0,
+      "total_path": 103500.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "A000989681013FSEW",
       "name": "Моторное масло Mercedes-Benz 5W-40 / MB 229.5 (Германия), (5л)",
-      "qty": 1040.0,
+      "qty": 1036.0,
       "per_pallet": 96.0,
       "pallets": 11.0,
       "price_path": 4563.0,
       "price_premium": 5052.0,
-      "total_path": 4745520.0,
+      "total_path": 4727268.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "A000989681011FSEW",
       "name": "Моторное масло Mercedes-Benz 5W-40 / MB 229.5, (Германия), (1л)",
-      "qty": 790.0,
+      "qty": 778.0,
       "per_pallet": 576.0,
       "pallets": 2.0,
       "price_path": 904.0,
       "price_premium": 1031.0,
-      "total_path": 714160.0,
+      "total_path": 703312.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "MZ321232",
       "name": "Моторное масло Mitsubishi SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1245.0,
+      "qty": 1242.0,
       "per_pallet": 162.0,
       "pallets": 8.0,
       "price_path": 2810.0,
       "price_premium": 3204.0,
-      "total_path": 3498450.0,
+      "total_path": 3490020.0,
       "status": "в наличии в МСК"
     },
     {
@@ -153,12 +153,12 @@
     {
       "sku": "XT5QMC",
       "name": "Трансмиссионное масло Ford Motorcraft ATF Mercon V, для АКПП / ГУР (красный), (США), (0,946л)",
-      "qty": 523.0,
+      "qty": 511.0,
       "per_pallet": 504.0,
       "pallets": 2.0,
       "price_path": 732.0,
       "price_premium": 835.0,
-      "total_path": 382836.0,
+      "total_path": 374052.0,
       "status": "в наличии в МСК"
     },
     {
@@ -230,12 +230,12 @@
     {
       "sku": "08886-81875",
       "name": "Трансмиссионное масло Toyota CVTF Fluid FE, для вариаторов, (Таиланд), (4л)",
-      "qty": 286.0,
+      "qty": 282.0,
       "per_pallet": 144.0,
       "pallets": 2.0,
       "price_path": 4138.0,
       "price_premium": 4582.0,
-      "total_path": 1183468.0,
+      "total_path": 1166916.0,
       "status": "в наличии в МСК"
     }
   ],
@@ -246,9 +246,9 @@
       "qty": 300.0,
       "per_pallet": 576.0,
       "pallets": 1.0,
-      "price_path": 1777.0,
-      "price_premium": 2026.0,
-      "total_path": 533100.0,
+      "price_path": 1776.0,
+      "price_premium": 2025.0,
+      "total_path": 532800.0,
       "eta": "07.11.2026"
     },
     {
@@ -257,9 +257,9 @@
       "qty": 1008.0,
       "per_pallet": 144.0,
       "pallets": 7.0,
-      "price_path": 2987.0,
-      "price_premium": 3405.0,
-      "total_path": 3010896.0,
+      "price_path": 2985.0,
+      "price_premium": 3403.0,
+      "total_path": 3008880.0,
       "eta": "07.11.2026"
     },
     {
@@ -279,9 +279,9 @@
       "qty": 2001.0,
       "per_pallet": 162.0,
       "pallets": 13.0,
-      "price_path": 2629.0,
-      "price_premium": 2997.0,
-      "total_path": 5260629.0,
+      "price_path": 2627.0,
+      "price_premium": 2995.0,
+      "total_path": 5256627.0,
       "eta": "07.11.2026"
     },
     {
@@ -290,9 +290,9 @@
       "qty": 187.0,
       "per_pallet": 144.0,
       "pallets": 2.0,
-      "price_path": 3586.0,
-      "price_premium": 4088.0,
-      "total_path": 670582.0,
+      "price_path": 3584.0,
+      "price_premium": 4086.0,
+      "total_path": 670208.0,
       "eta": "07.11.2026"
     },
     {
@@ -301,9 +301,9 @@
       "qty": 288.0,
       "per_pallet": 144.0,
       "pallets": 2.0,
-      "price_path": 3391.0,
-      "price_premium": 3391.0,
-      "total_path": 976608.0,
+      "price_path": 3389.0,
+      "price_premium": 3389.0,
+      "total_path": 976032.0,
       "eta": "07.11.2026"
     },
     {
@@ -312,9 +312,9 @@
       "qty": 1584.0,
       "per_pallet": 144.0,
       "pallets": 11.0,
-      "price_path": 2735.0,
-      "price_premium": 3118.0,
-      "total_path": 4332240.0,
+      "price_path": 2733.0,
+      "price_premium": 3116.0,
+      "total_path": 4329072.0,
       "eta": "07.11.2026"
     },
     {
@@ -323,9 +323,9 @@
       "qty": 456.0,
       "per_pallet": 720.0,
       "pallets": 1.0,
-      "price_path": 1473.0,
-      "price_premium": 1679.0,
-      "total_path": 671688.0,
+      "price_path": 1472.0,
+      "price_premium": 1678.0,
+      "total_path": 671232.0,
       "eta": "07.11.2026"
     },
     {
@@ -334,9 +334,9 @@
       "qty": 136.0,
       "per_pallet": 144.0,
       "pallets": 1.0,
-      "price_path": 4071.0,
-      "price_premium": 4641.0,
-      "total_path": 553656.0,
+      "price_path": 4069.0,
+      "price_premium": 4639.0,
+      "total_path": 553384.0,
       "eta": "07.11.2026"
     }
   ],
@@ -645,15 +645,15 @@
   ],
   "totals": {
     "stock": {
-      "qty": 15618.0,
-      "pallets": 82.0,
-      "total_path": 36050898.0,
+      "qty": 15047.0,
+      "pallets": 78.0,
+      "total_path": 34746997.0,
       "count": 21
     },
     "transit": {
       "qty": 6680.0,
       "pallets": 39.0,
-      "total_path": 16592599.0,
+      "total_path": 16581435.0,
       "count": 9
     },
     "discount": {
