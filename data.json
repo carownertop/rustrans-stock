@@ -2,7 +2,7 @@
   "meta": {
     "phone": "89180863874",
     "site": "https://rustrans-logistic.ru/",
-    "usd_rate": "80,4909",
+    "usd_rate": "80,5307",
     "usd_date": "27.10.2026"
   },
   "updated": "27.10.2026",
@@ -10,23 +10,23 @@
     {
       "sku": "83215B5BFA4",
       "name": "Моторное масло BMW Twin Power Turbo SN 5W-30 Longlife-04 (C3), (Германия), (1л)",
-      "qty": 4575.0,
+      "qty": 4635.0,
       "per_pallet": 576.0,
-      "pallets": 8.0,
+      "pallets": 9.0,
       "price_path": 1312.0,
       "price_premium": 1496.0,
-      "total_path": 6002400.0,
+      "total_path": 6081120.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "08880-83717",
       "name": "Моторное масло Lexus SN 5W-40 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1139.0,
+      "qty": 1141.0,
       "per_pallet": 144.0,
       "pallets": 8.0,
       "price_path": 2362.0,
       "price_premium": 2615.0,
-      "total_path": 2690318.0,
+      "total_path": 2695042.0,
       "status": "в наличии в МСК"
     },
     {
@@ -131,12 +131,12 @@
     {
       "sku": "90790BS455",
       "name": "Моторное масло YAMALUBE 4Т SJ 10W-40, для 4-такт. лодочных моторов 4 Stroke, (Сингапур), (1л)",
-      "qty": 239.0,
+      "qty": 215.0,
       "per_pallet": 504.0,
       "pallets": 1.0,
       "price_path": 818.0,
       "price_premium": 933.0,
-      "total_path": 195502.0,
+      "total_path": 175870.0,
       "status": "в наличии в МСК"
     },
     {
@@ -197,12 +197,12 @@
     {
       "sku": "08886-02805",
       "name": "Трансмиссионное масло Toyota ATF WS, для АКПП, (Япония), (4л.)",
-      "qty": 769.0,
+      "qty": 775.0,
       "per_pallet": 144.0,
       "pallets": 6.0,
       "price_path": 4927.0,
       "price_premium": 5455.0,
-      "total_path": 3788863.0,
+      "total_path": 3818425.0,
       "status": "в наличии в МСК"
     },
     {
@@ -224,9 +224,9 @@
       "qty": 300.0,
       "per_pallet": 576.0,
       "pallets": 1.0,
-      "price_path": 1776.0,
-      "price_premium": 2025.0,
-      "total_path": 532800.0,
+      "price_path": 1778.0,
+      "price_premium": 2027.0,
+      "total_path": 533400.0,
       "eta": "07.11.2026"
     },
     {
@@ -235,9 +235,9 @@
       "qty": 1008.0,
       "per_pallet": 144.0,
       "pallets": 7.0,
-      "price_path": 2985.0,
-      "price_premium": 3403.0,
-      "total_path": 3008880.0,
+      "price_path": 2988.0,
+      "price_premium": 3406.0,
+      "total_path": 3011904.0,
       "eta": "07.11.2026"
     },
     {
@@ -246,9 +246,9 @@
       "qty": 720.0,
       "per_pallet": 720.0,
       "pallets": 1.0,
-      "price_path": 810.0,
-      "price_premium": 923.0,
-      "total_path": 583200.0,
+      "price_path": 811.0,
+      "price_premium": 925.0,
+      "total_path": 583920.0,
       "eta": "07.11.2026"
     },
     {
@@ -257,9 +257,9 @@
       "qty": 2001.0,
       "per_pallet": 162.0,
       "pallets": 13.0,
-      "price_path": 2627.0,
-      "price_premium": 2995.0,
-      "total_path": 5256627.0,
+      "price_path": 2647.0,
+      "price_premium": 3018.0,
+      "total_path": 5296647.0,
       "eta": "07.11.2026"
     },
     {
@@ -268,9 +268,9 @@
       "qty": 187.0,
       "per_pallet": 144.0,
       "pallets": 2.0,
-      "price_path": 3584.0,
-      "price_premium": 4086.0,
-      "total_path": 670208.0,
+      "price_path": 3586.0,
+      "price_premium": 4088.0,
+      "total_path": 670582.0,
       "eta": "07.11.2026"
     },
     {
@@ -279,9 +279,9 @@
       "qty": 288.0,
       "per_pallet": 144.0,
       "pallets": 2.0,
-      "price_path": 3389.0,
-      "price_premium": 3389.0,
-      "total_path": 976032.0,
+      "price_path": 3388.0,
+      "price_premium": 3388.0,
+      "total_path": 975744.0,
       "eta": "07.11.2026"
     },
     {
@@ -290,9 +290,9 @@
       "qty": 1584.0,
       "per_pallet": 144.0,
       "pallets": 11.0,
-      "price_path": 2733.0,
-      "price_premium": 3116.0,
-      "total_path": 4329072.0,
+      "price_path": 2735.0,
+      "price_premium": 3118.0,
+      "total_path": 4332240.0,
       "eta": "07.11.2026"
     },
     {
@@ -301,9 +301,9 @@
       "qty": 456.0,
       "per_pallet": 720.0,
       "pallets": 1.0,
-      "price_path": 1472.0,
-      "price_premium": 1678.0,
-      "total_path": 671232.0,
+      "price_path": 1473.0,
+      "price_premium": 1679.0,
+      "total_path": 671688.0,
       "eta": "07.11.2026"
     },
     {
@@ -312,9 +312,9 @@
       "qty": 136.0,
       "per_pallet": 144.0,
       "pallets": 1.0,
-      "price_path": 4069.0,
-      "price_premium": 4639.0,
-      "total_path": 553384.0,
+      "price_path": 4072.0,
+      "price_premium": 4642.0,
+      "total_path": 553792.0,
       "eta": "07.11.2026"
     }
   ],
@@ -623,15 +623,15 @@
   ],
   "totals": {
     "stock": {
-      "qty": 14665.0,
-      "pallets": 74.0,
-      "total_path": 33631144.0,
+      "qty": 14709.0,
+      "pallets": 75.0,
+      "total_path": 33724518.0,
       "count": 19
     },
     "transit": {
       "qty": 6680.0,
       "pallets": 39.0,
-      "total_path": 16581435.0,
+      "total_path": 16629917.0,
       "count": 9
     },
     "discount": {
