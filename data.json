@@ -131,12 +131,12 @@
     {
       "sku": "90790BS455",
       "name": "Моторное масло YAMALUBE 4Т SJ 10W-40, для 4-такт. лодочных моторов 4 Stroke, (Сингапур), (1л)",
-      "qty": 209.0,
+      "qty": 208.0,
       "per_pallet": 504.0,
       "pallets": 1.0,
       "price_path": 818.0,
       "price_premium": 933.0,
-      "total_path": 170962.0,
+      "total_path": 170144.0,
       "status": "в наличии в МСК"
     },
     {
@@ -623,9 +623,9 @@
   ],
   "totals": {
     "stock": {
-      "qty": 14318.0,
+      "qty": 14317.0,
       "pallets": 72.0,
-      "total_path": 33059859.0,
+      "total_path": 33059041.0,
       "count": 19
     },
     "transit": {
