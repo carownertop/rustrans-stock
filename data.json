@@ -43,12 +43,12 @@
     {
       "sku": "LIM10038-4EN",
       "name": "Моторное масло Mazda \"GOLDEN\" SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 990.0,
+      "qty": 989.0,
       "per_pallet": 144.0,
       "pallets": 7.0,
       "price_path": 3105.0,
       "price_premium": 3540.0,
-      "total_path": 3073950.0,
+      "total_path": 3070845.0,
       "status": "в наличии в МСК"
     },
     {
@@ -224,9 +224,9 @@
       "qty": 300.0,
       "per_pallet": 576.0,
       "pallets": 1.0,
-      "price_path": 1788.0,
-      "price_premium": 2038.0,
-      "total_path": 536400.0,
+      "price_path": 1803.0,
+      "price_premium": 2055.0,
+      "total_path": 540900.0,
       "eta": "07.11.2026"
     },
     {
@@ -235,9 +235,9 @@
       "qty": 1008.0,
       "per_pallet": 144.0,
       "pallets": 7.0,
-      "price_path": 3004.0,
-      "price_premium": 3425.0,
-      "total_path": 3028032.0,
+      "price_path": 3030.0,
+      "price_premium": 3454.0,
+      "total_path": 3054240.0,
       "eta": "07.11.2026"
     },
     {
@@ -246,9 +246,9 @@
       "qty": 720.0,
       "per_pallet": 720.0,
       "pallets": 1.0,
-      "price_path": 815.0,
-      "price_premium": 929.0,
-      "total_path": 586800.0,
+      "price_path": 822.0,
+      "price_premium": 937.0,
+      "total_path": 591840.0,
       "eta": "07.11.2026"
     },
     {
@@ -257,9 +257,9 @@
       "qty": 2001.0,
       "per_pallet": 162.0,
       "pallets": 13.0,
-      "price_path": 2662.0,
-      "price_premium": 3035.0,
-      "total_path": 5326662.0,
+      "price_path": 2684.0,
+      "price_premium": 3060.0,
+      "total_path": 5370684.0,
       "eta": "07.11.2026"
     },
     {
@@ -268,9 +268,9 @@
       "qty": 187.0,
       "per_pallet": 144.0,
       "pallets": 2.0,
-      "price_path": 3606.0,
-      "price_premium": 4111.0,
-      "total_path": 674322.0,
+      "price_path": 3637.0,
+      "price_premium": 4146.0,
+      "total_path": 680119.0,
       "eta": "07.11.2026"
     },
     {
@@ -279,9 +279,9 @@
       "qty": 288.0,
       "per_pallet": 144.0,
       "pallets": 2.0,
-      "price_path": 3407.0,
-      "price_premium": 3407.0,
-      "total_path": 981216.0,
+      "price_path": 3436.0,
+      "price_premium": 3436.0,
+      "total_path": 989568.0,
       "eta": "07.11.2026"
     },
     {
@@ -290,9 +290,9 @@
       "qty": 1584.0,
       "per_pallet": 144.0,
       "pallets": 11.0,
-      "price_path": 2750.0,
-      "price_premium": 3135.0,
-      "total_path": 4356000.0,
+      "price_path": 2774.0,
+      "price_premium": 3162.0,
+      "total_path": 4394016.0,
       "eta": "07.11.2026"
     },
     {
@@ -301,9 +301,9 @@
       "qty": 456.0,
       "per_pallet": 720.0,
       "pallets": 1.0,
-      "price_path": 1481.0,
-      "price_premium": 1688.0,
-      "total_path": 675336.0,
+      "price_path": 1494.0,
+      "price_premium": 1703.0,
+      "total_path": 681264.0,
       "eta": "07.11.2026"
     },
     {
@@ -312,9 +312,9 @@
       "qty": 136.0,
       "per_pallet": 144.0,
       "pallets": 1.0,
-      "price_path": 4094.0,
-      "price_premium": 4667.0,
-      "total_path": 556784.0,
+      "price_path": 4129.0,
+      "price_premium": 4707.0,
+      "total_path": 561544.0,
       "eta": "07.11.2026"
     }
   ],
@@ -623,15 +623,15 @@
   ],
   "totals": {
     "stock": {
-      "qty": 13885.0,
+      "qty": 13884.0,
       "pallets": 71.0,
-      "total_path": 32270467.0,
+      "total_path": 32267362.0,
       "count": 19
     },
     "transit": {
       "qty": 6680.0,
       "pallets": 39.0,
-      "total_path": 16721552.0,
+      "total_path": 16864175.0,
       "count": 9
     },
     "discount": {
