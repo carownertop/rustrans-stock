@@ -10,23 +10,23 @@
     {
       "sku": "83215B5BFA4",
       "name": "Моторное масло BMW Twin Power Turbo SN 5W-30 Longlife-04 (C3), (Германия), (1л)",
-      "qty": 4407.0,
+      "qty": 4539.0,
       "per_pallet": 576.0,
       "pallets": 8.0,
       "price_path": 1332.0,
       "price_premium": 1519.0,
-      "total_path": 5870124.0,
+      "total_path": 6045948.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "08880-83717",
       "name": "Моторное масло Lexus SN 5W-40 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1123.0,
+      "qty": 1153.0,
       "per_pallet": 144.0,
-      "pallets": 8.0,
+      "pallets": 9.0,
       "price_path": 2396.0,
       "price_premium": 2652.0,
-      "total_path": 2690708.0,
+      "total_path": 2762588.0,
       "status": "в наличии в МСК"
     },
     {
@@ -43,12 +43,12 @@
     {
       "sku": "LIM10038-4EN",
       "name": "Моторное масло Mazda \"GOLDEN\" SN 5W-30 / ILSAC GF-5, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 987.0,
+      "qty": 989.0,
       "per_pallet": 144.0,
       "pallets": 7.0,
       "price_path": 3132.0,
       "price_premium": 3571.0,
-      "total_path": 3091284.0,
+      "total_path": 3097548.0,
       "status": "в наличии в МСК"
     },
     {
@@ -120,23 +120,23 @@
     {
       "sku": "MZ321232",
       "name": "Моторное масло Mitsubishi SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 1006.0,
+      "qty": 1005.0,
       "per_pallet": 162.0,
       "pallets": 7.0,
       "price_path": 2849.0,
       "price_premium": 3248.0,
-      "total_path": 2866094.0,
+      "total_path": 2863245.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "90790BS455",
       "name": "Моторное масло YAMALUBE 4Т SJ 10W-40, для 4-такт. лодочных моторов 4 Stroke, (Сингапур), (1л)",
-      "qty": 177.0,
+      "qty": 176.0,
       "per_pallet": 504.0,
       "pallets": 1.0,
       "price_path": 830.0,
       "price_premium": 947.0,
-      "total_path": 146910.0,
+      "total_path": 146080.0,
       "status": "в наличии в МСК"
     },
     {
@@ -227,7 +227,7 @@
       "price_path": 1803.0,
       "price_premium": 2055.0,
       "total_path": 540900.0,
-      "eta": "07.11.2026"
+      "eta": "16.11.2026"
     },
     {
       "sku": "08234P99F4PY1",
@@ -238,7 +238,7 @@
       "price_path": 3030.0,
       "price_premium": 3454.0,
       "total_path": 3054240.0,
-      "eta": "07.11.2026"
+      "eta": "16.11.2026"
     },
     {
       "sku": "MZ321233",
@@ -249,7 +249,7 @@
       "price_path": 822.0,
       "price_premium": 937.0,
       "total_path": 591840.0,
-      "eta": "07.11.2026"
+      "eta": "16.11.2026"
     },
     {
       "sku": "MZ321232",
@@ -260,7 +260,7 @@
       "price_path": 2684.0,
       "price_premium": 3060.0,
       "total_path": 5370684.0,
-      "eta": "07.11.2026"
+      "eta": "16.11.2026"
     },
     {
       "sku": "KLAPE05304",
@@ -271,7 +271,7 @@
       "price_path": 3637.0,
       "price_premium": 4146.0,
       "total_path": 680119.0,
-      "eta": "07.11.2026"
+      "eta": "16.11.2026"
     },
     {
       "sku": "08880-84355",
@@ -282,7 +282,7 @@
       "price_path": 3436.0,
       "price_premium": 3436.0,
       "total_path": 989568.0,
-      "eta": "07.11.2026"
+      "eta": "16.11.2026"
     },
     {
       "sku": "08880-84132",
@@ -293,7 +293,7 @@
       "price_path": 2774.0,
       "price_premium": 3162.0,
       "total_path": 4394016.0,
-      "eta": "07.11.2026"
+      "eta": "16.11.2026"
     },
     {
       "sku": "MZ320265",
@@ -304,7 +304,7 @@
       "price_path": 1494.0,
       "price_premium": 1703.0,
       "total_path": 681264.0,
-      "eta": "07.11.2026"
+      "eta": "16.11.2026"
     },
     {
       "sku": "08886-81895",
@@ -315,7 +315,7 @@
       "price_path": 4129.0,
       "price_premium": 4707.0,
       "total_path": 561544.0,
-      "eta": "07.11.2026"
+      "eta": "16.11.2026"
     }
   ],
   "discount": [
@@ -623,9 +623,9 @@
   ],
   "totals": {
     "stock": {
-      "qty": 13878.0,
-      "pallets": 71.0,
-      "total_path": 32542287.0,
+      "qty": 14040.0,
+      "pallets": 72.0,
+      "total_path": 32792576.0,
       "count": 19
     },
     "transit": {
