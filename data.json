@@ -98,12 +98,12 @@
     {
       "sku": "A000989681013FSEW",
       "name": "Моторное масло Mercedes-Benz 5W-40 / MB 229.5 (Германия), (5л)",
-      "qty": 962.0,
+      "qty": 942.0,
       "per_pallet": 96.0,
-      "pallets": 11.0,
+      "pallets": 10.0,
       "price_path": 4635.0,
       "price_premium": 5132.0,
-      "total_path": 4458870.0,
+      "total_path": 4366170.0,
       "status": "в наличии в МСК"
     },
     {
@@ -120,23 +120,23 @@
     {
       "sku": "MZ321232",
       "name": "Моторное масло Mitsubishi SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 995.0,
+      "qty": 994.0,
       "per_pallet": 162.0,
       "pallets": 7.0,
       "price_path": 2854.0,
       "price_premium": 3254.0,
-      "total_path": 2839730.0,
+      "total_path": 2836876.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "90790BS455",
       "name": "Моторное масло YAMALUBE 4Т SJ 10W-40, для 4-такт. лодочных моторов 4 Stroke, (Сингапур), (1л)",
-      "qty": 154.0,
+      "qty": 153.0,
       "per_pallet": 504.0,
       "pallets": 1.0,
       "price_path": 831.0,
       "price_premium": 948.0,
-      "total_path": 127974.0,
+      "total_path": 127143.0,
       "status": "в наличии в МСК"
     },
     {
@@ -623,9 +623,9 @@
   ],
   "totals": {
     "stock": {
-      "qty": 14002.0,
-      "pallets": 71.0,
-      "total_path": 32779661.0,
+      "qty": 13980.0,
+      "pallets": 70.0,
+      "total_path": 32683276.0,
       "count": 19
     },
     "transit": {
