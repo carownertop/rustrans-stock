@@ -120,12 +120,12 @@
     {
       "sku": "MZ321232",
       "name": "Моторное масло Mitsubishi SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 988.0,
+      "qty": 987.0,
       "per_pallet": 162.0,
       "pallets": 7.0,
       "price_path": 2865.0,
       "price_premium": 3267.0,
-      "total_path": 2830620.0,
+      "total_path": 2827755.0,
       "status": "в наличии в МСК"
     },
     {
@@ -623,9 +623,9 @@
   ],
   "totals": {
     "stock": {
-      "qty": 13968.0,
+      "qty": 13967.0,
       "pallets": 70.0,
-      "total_path": 32792040.0,
+      "total_path": 32789175.0,
       "count": 19
     },
     "transit": {
