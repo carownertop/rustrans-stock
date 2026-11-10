@@ -3,9 +3,9 @@
     "phone": "89180863874",
     "site": "https://rustrans-logistic.ru/",
     "usd_rate": "82,5486",
-    "usd_date": "10.11.2026"
+    "usd_date": "11.11.2026"
   },
-  "updated": "10.11.2026",
+  "updated": "11.11.2026",
   "stock": [
     {
       "sku": "83215B5BFA4",
@@ -120,12 +120,12 @@
     {
       "sku": "90790BS455",
       "name": "Моторное масло YAMALUBE 4Т SJ 10W-40, для 4-такт. лодочных моторов 4 Stroke, (Сингапур), (1л)",
-      "qty": 125.0,
+      "qty": 123.0,
       "per_pallet": 504.0,
       "pallets": 1.0,
       "price_path": 842.0,
       "price_premium": 960.0,
-      "total_path": 105250.0,
+      "total_path": 103566.0,
       "status": "в наличии в МСК"
     },
     {
@@ -612,9 +612,9 @@
   ],
   "totals": {
     "stock": {
-      "qty": 13882.0,
+      "qty": 13880.0,
       "pallets": 69.0,
-      "total_path": 32940877.0,
+      "total_path": 32939193.0,
       "count": 18
     },
     "transit": {
