@@ -3,9 +3,9 @@
     "phone": "89180863874",
     "site": "https://rustrans-logistic.ru/",
     "usd_rate": "82,1516",
-    "usd_date": "13.11.2026"
+    "usd_date": "14.11.2026"
   },
-  "updated": "13.11.2026",
+  "updated": "14.11.2026",
   "stock": [
     {
       "sku": "83215B5BFA4",
@@ -109,12 +109,12 @@
     {
       "sku": "MZ321232",
       "name": "Моторное масло Mitsubishi SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 959.0,
+      "qty": 958.0,
       "per_pallet": 162.0,
       "pallets": 6.0,
       "price_path": 2895.0,
       "price_premium": 3301.0,
-      "total_path": 2776305.0,
+      "total_path": 2773410.0,
       "status": "в наличии в МСК"
     },
     {
@@ -612,9 +612,9 @@
   ],
   "totals": {
     "stock": {
-      "qty": 13597.0,
+      "qty": 13596.0,
       "pallets": 69.0,
-      "total_path": 32629396.0,
+      "total_path": 32626501.0,
       "count": 18
     },
     "transit": {
