@@ -109,23 +109,23 @@
     {
       "sku": "MZ321232",
       "name": "Моторное масло Mitsubishi SP 5W-30 / ILSAC GF-6A, для бенз. двигателей, (Дубай), (4л)",
-      "qty": 956.0,
+      "qty": 955.0,
       "per_pallet": 162.0,
       "pallets": 6.0,
       "price_path": 2867.0,
       "price_premium": 3269.0,
-      "total_path": 2740852.0,
+      "total_path": 2737985.0,
       "status": "в наличии в МСК"
     },
     {
       "sku": "90790BS455",
       "name": "Моторное масло YAMALUBE 4Т SJ 10W-40, для 4-такт. лодочных моторов 4 Stroke, (Сингапур), (1л)",
-      "qty": 120.0,
+      "qty": 119.0,
       "per_pallet": 504.0,
       "pallets": 1.0,
       "price_path": 835.0,
       "price_premium": 952.0,
-      "total_path": 100200.0,
+      "total_path": 99365.0,
       "status": "в наличии в МСК"
     },
     {
@@ -612,9 +612,9 @@
   ],
   "totals": {
     "stock": {
-      "qty": 13593.0,
+      "qty": 13591.0,
       "pallets": 69.0,
-      "total_path": 32296882.0,
+      "total_path": 32293180.0,
       "count": 18
     },
     "transit": {
